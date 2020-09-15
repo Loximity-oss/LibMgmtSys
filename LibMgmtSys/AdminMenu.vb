@@ -38,6 +38,11 @@ Public Class AdminMenu
         Header.Text = "User Accounts"
     End Sub
 
+    Private Sub BunifuButton11_Click(sender As Object, e As EventArgs) Handles BunifuButton11.Click
+        AdminMenu_Tabbed.SetPage("About")
+        Header.Text = "About Application"
+    End Sub
+
 
 
     Private Sub RTC_Tick(sender As Object, e As EventArgs) Handles RTC.Tick
@@ -67,10 +72,7 @@ Public Class AdminMenu
         underline.Location = New Point(167, 47)
     End Sub
 
-    Private Sub CrystalReport_UserAccount_Click(sender As Object, e As EventArgs) Handles CrystalReport_UserAccount.Click
-        UserAcc_Pages.SetPage("CrystalReport_UserAcc")
-        underline.Location = New Point(327, 47)
-    End Sub
+
 
 
 
@@ -145,6 +147,46 @@ Public Class AdminMenu
         End Try
         conn.Close()
 
+
+    End Sub
+
+    Private Sub ModifyUserAttribute_UserAcc_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles ModifyUserAttribute_UserAcc.CellContentClick
+        Try
+            userID_dt_Modify_UserAcc.Text = ModifyUserAttribute_UserAcc.Rows(e.RowIndex).Cells(0).Value
+            fullname_dt_Modify_UserAcc.Text = ModifyUserAttribute_UserAcc.Rows(e.RowIndex).Cells(1).Value
+            password_dt_Modify_UserAcc.Text = ModifyUserAttribute_UserAcc.Rows(e.RowIndex).Cells(2).Value
+            matid_dt_Modify_UserAcc.Text = ModifyUserAttribute_UserAcc.Rows(e.RowIndex).Cells(3).Value
+            userType_dt_Modify_UserAcc.Text = ModifyUserAttribute_UserAcc.Rows(e.RowIndex).Cells(4).Value
+        Catch ex As Exception
+            MessageBox.Show("You clicked on an invalid row.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End Try
+
+    End Sub
+
+    Private Sub SearchBox_Modify_UserAcc_TextChanged(sender As Object, e As EventArgs) Handles SearchBox_Modify_UserAcc.TextChanged
+        Dim conn As New SqlConnection
+        Dim cmd As New SqlCommand
+        Dim ModifyUserAcc As New DataTable()
+
+
+        'Connection Settings
+        conn = GetConnect()
+        cmd = conn.CreateCommand
+        conn.Open()
+
+        'SQL String 
+        cmd.CommandText = "SELECT * FROM users WHERE userID Like '%" & SearchBox_Modify_UserAcc.Text & "%'"
+        Dim da As New SqlDataAdapter(cmd.CommandText, conn)
+        da.Fill(ModifyUserAcc)
+        ModifyUserAttribute_UserAcc.DataSource = ModifyUserAcc
+        conn.Close()
+    End Sub
+
+    Private Sub UpdateButton_Modify_UserAcc_Click(sender As Object, e As EventArgs) Handles UpdateButton_Modify_UserAcc.Click
+
+    End Sub
+
+    Private Sub DeleteButton_Modify_UserAcc_Click(sender As Object, e As EventArgs) Handles DeleteButton_Modify_UserAcc.Click
 
     End Sub
 

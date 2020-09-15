@@ -35,13 +35,14 @@ Partial Class AdminMenu
         Dim Animation2 As Utilities.BunifuPages.BunifuAnimatorNS.Animation = New Utilities.BunifuPages.BunifuAnimatorNS.Animation()
         Dim Animation1 As Utilities.BunifuPages.BunifuAnimatorNS.Animation = New Utilities.BunifuPages.BunifuAnimatorNS.Animation()
         Dim BorderEdges9 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges10 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges11 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim BorderEdges10 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
-        Dim BorderEdges11 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim BorderEdges12 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Dim BorderEdges13 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
+        Dim BorderEdges14 As Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges = New Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges()
         Me.BunifuPanel1 = New Bunifu.UI.WinForms.BunifuPanel()
         Me.BunifuButton11 = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.BunifuPanel5 = New Bunifu.UI.WinForms.BunifuPanel()
@@ -69,12 +70,17 @@ Partial Class AdminMenu
         Me.BunifuLabel3 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Profile = New System.Windows.Forms.TabPage()
-        Me.BunifuLabel4 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.BunifuPanel14 = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.BunifuLabel33 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel40 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuSeparator5 = New Bunifu.UI.WinForms.BunifuSeparator()
         Me.BookCatalog = New System.Windows.Forms.TabPage()
         Me.BookLoan_Borrow = New System.Windows.Forms.TabPage()
         Me.BookLoan_Return = New System.Windows.Forms.TabPage()
         Me.News = New System.Windows.Forms.TabPage()
         Me.UserAcc = New System.Windows.Forms.TabPage()
+        Me.BunifuSeparator3 = New Bunifu.UI.WinForms.BunifuSeparator()
         Me.UserAcc_Pages = New Bunifu.UI.WinForms.BunifuPages()
         Me.Add_UserAcc = New System.Windows.Forms.TabPage()
         Me.Add_userAcc_button = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
@@ -92,7 +98,28 @@ Partial Class AdminMenu
         Me.fullname_add_useracc = New System.Windows.Forms.TextBox()
         Me.RegisterNewUserLabel = New System.Windows.Forms.Label()
         Me.Modify_UserAcc = New System.Windows.Forms.TabPage()
-        Me.BunifuDataGridView1 = New Bunifu.UI.WinForms.BunifuDataGridView()
+        Me.BunifuPanel7 = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.DeleteButton_Modify_UserAcc = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.BunifuLabel12 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.userType_dt_Modify_UserAcc = New System.Windows.Forms.ComboBox()
+        Me.BunifuLabel11 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel10 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel9 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.matid_dt_Modify_UserAcc = New System.Windows.Forms.TextBox()
+        Me.password_dt_Modify_UserAcc = New System.Windows.Forms.TextBox()
+        Me.fullname_dt_Modify_UserAcc = New System.Windows.Forms.TextBox()
+        Me.BunifuLabel7 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.UpdateButton_Modify_UserAcc = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.userID_dt_Modify_UserAcc = New System.Windows.Forms.TextBox()
+        Me.BunifuLabel8 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuSeparator2 = New Bunifu.UI.WinForms.BunifuSeparator()
+        Me.BunifuPanel6 = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.BunifuLabel6 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.SearchBox_Modify_UserAcc = New System.Windows.Forms.TextBox()
+        Me.BunifuLabel5 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuSeparator1 = New Bunifu.UI.WinForms.BunifuSeparator()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.ModifyUserAttribute_UserAcc = New Bunifu.UI.WinForms.BunifuDataGridView()
         Me.UserIDDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.FullnameDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.PasswordDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -104,13 +131,60 @@ Partial Class AdminMenu
         Me.CrystalReport_UserAcc = New System.Windows.Forms.TabPage()
         Me.BunifuPanel4 = New Bunifu.UI.WinForms.BunifuPanel()
         Me.underline = New System.Windows.Forms.PictureBox()
-        Me.CrystalReport_UserAccount = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.Modify_UserAccount = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.AddButton_UserAccount = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
+        Me.About = New System.Windows.Forms.TabPage()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.BunifuLabel28 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel29 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel27 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuPanel12 = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.BunifuLabel25 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel26 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuPictureBox5 = New Bunifu.UI.WinForms.BunifuPictureBox()
+        Me.BunifuPanel11 = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.BunifuLabel17 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel18 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuPictureBox4 = New Bunifu.UI.WinForms.BunifuPictureBox()
+        Me.BunifuPanel10 = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.BunifuLabel23 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel24 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuPictureBox3 = New Bunifu.UI.WinForms.BunifuPictureBox()
+        Me.BunifuPanel9 = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.BunifuLabel21 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel22 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuPictureBox2 = New Bunifu.UI.WinForms.BunifuPictureBox()
+        Me.BunifuPanel8 = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.BunifuLabel20 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel19 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuPictureBox1 = New Bunifu.UI.WinForms.BunifuPictureBox()
+        Me.BunifuLabel16 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel15 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel14 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel13 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.ApplicationVerLabel = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.DisclaimerLabelText = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.DisclaimerLabel = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.RTC = New System.Windows.Forms.Timer(Me.components)
         Me.add_usrAcc = New Bunifu.UI.WinForms.BunifuButton.BunifuButton()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.UsersTableAdapter = New LibMgmtSys.LibMgmtSysDataSetTableAdapters.usersTableAdapter()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.BunifuPanel15 = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.BunifuLabel39 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuSeparator6 = New Bunifu.UI.WinForms.BunifuSeparator()
+        Me.BunifuSeparator4 = New Bunifu.UI.WinForms.BunifuSeparator()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.BunifuPanel13 = New Bunifu.UI.WinForms.BunifuPanel()
+        Me.BunifuLabel34 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel32 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel31 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel30 = New Bunifu.UI.WinForms.BunifuLabel()
+        Me.BunifuLabel4 = New Bunifu.UI.WinForms.BunifuLabel()
         Me.BunifuPanel1.SuspendLayout()
         Me.BunifuPanel5.SuspendLayout()
         Me.BunifuPanel3.SuspendLayout()
@@ -120,15 +194,34 @@ Partial Class AdminMenu
         Me.Dashboard.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Profile.SuspendLayout()
+        Me.BunifuPanel14.SuspendLayout()
         Me.UserAcc.SuspendLayout()
         Me.UserAcc_Pages.SuspendLayout()
         Me.Add_UserAcc.SuspendLayout()
         Me.Modify_UserAcc.SuspendLayout()
-        CType(Me.BunifuDataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.BunifuPanel7.SuspendLayout()
+        Me.BunifuPanel6.SuspendLayout()
+        CType(Me.ModifyUserAttribute_UserAcc, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UsersBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LibMgmtSysDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.BunifuPanel4.SuspendLayout()
         CType(Me.underline, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.About.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.BunifuPanel12.SuspendLayout()
+        CType(Me.BunifuPictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.BunifuPanel11.SuspendLayout()
+        CType(Me.BunifuPictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.BunifuPanel10.SuspendLayout()
+        CType(Me.BunifuPictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.BunifuPanel9.SuspendLayout()
+        CType(Me.BunifuPictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.BunifuPanel8.SuspendLayout()
+        CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.BunifuPanel15.SuspendLayout()
+        Me.BunifuPanel13.SuspendLayout()
         Me.SuspendLayout()
         '
         'BunifuPanel1
@@ -1001,13 +1094,14 @@ Partial Class AdminMenu
         Me.AdminMenu_Tabbed.Controls.Add(Me.BookLoan_Return)
         Me.AdminMenu_Tabbed.Controls.Add(Me.News)
         Me.AdminMenu_Tabbed.Controls.Add(Me.UserAcc)
+        Me.AdminMenu_Tabbed.Controls.Add(Me.About)
         Me.AdminMenu_Tabbed.Location = New System.Drawing.Point(239, 82)
         Me.AdminMenu_Tabbed.Multiline = True
         Me.AdminMenu_Tabbed.Name = "AdminMenu_Tabbed"
-        Me.AdminMenu_Tabbed.Page = Me.UserAcc
-        Me.AdminMenu_Tabbed.PageIndex = 6
-        Me.AdminMenu_Tabbed.PageName = "UserAcc"
-        Me.AdminMenu_Tabbed.PageTitle = "UserAcc"
+        Me.AdminMenu_Tabbed.Page = Me.Profile
+        Me.AdminMenu_Tabbed.PageIndex = 1
+        Me.AdminMenu_Tabbed.PageName = "Profile"
+        Me.AdminMenu_Tabbed.PageTitle = "Profile"
         Me.AdminMenu_Tabbed.SelectedIndex = 0
         Me.AdminMenu_Tabbed.Size = New System.Drawing.Size(1009, 663)
         Me.AdminMenu_Tabbed.TabIndex = 2
@@ -1079,7 +1173,10 @@ Partial Class AdminMenu
         '
         'Profile
         '
-        Me.Profile.Controls.Add(Me.BunifuLabel4)
+        Me.Profile.Controls.Add(Me.BunifuPanel15)
+        Me.Profile.Controls.Add(Me.Label9)
+        Me.Profile.Controls.Add(Me.BunifuPanel14)
+        Me.Profile.Controls.Add(Me.BunifuPanel13)
         Me.Profile.Location = New System.Drawing.Point(4, 4)
         Me.Profile.Name = "Profile"
         Me.Profile.Padding = New System.Windows.Forms.Padding(3)
@@ -1088,21 +1185,78 @@ Partial Class AdminMenu
         Me.Profile.Text = "Profile"
         Me.Profile.UseVisualStyleBackColor = True
         '
-        'BunifuLabel4
+        'Label9
         '
-        Me.BunifuLabel4.AllowParentOverrides = False
-        Me.BunifuLabel4.AutoEllipsis = False
-        Me.BunifuLabel4.Cursor = System.Windows.Forms.Cursors.Default
-        Me.BunifuLabel4.CursorType = System.Windows.Forms.Cursors.Default
-        Me.BunifuLabel4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.BunifuLabel4.Location = New System.Drawing.Point(193, 84)
-        Me.BunifuLabel4.Name = "BunifuLabel4"
-        Me.BunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.BunifuLabel4.Size = New System.Drawing.Size(69, 15)
-        Me.BunifuLabel4.TabIndex = 0
-        Me.BunifuLabel4.Text = "BunifuLabel4"
-        Me.BunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft
-        Me.BunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(37, 23)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(164, 45)
+        Me.Label9.TabIndex = 27
+        Me.Label9.Text = "My Profile"
+        '
+        'BunifuPanel14
+        '
+        Me.BunifuPanel14.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(243, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.BunifuPanel14.BackgroundImage = CType(resources.GetObject("BunifuPanel14.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuPanel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuPanel14.BorderColor = System.Drawing.Color.Transparent
+        Me.BunifuPanel14.BorderRadius = 3
+        Me.BunifuPanel14.BorderThickness = 1
+        Me.BunifuPanel14.Controls.Add(Me.PictureBox5)
+        Me.BunifuPanel14.Controls.Add(Me.BunifuLabel33)
+        Me.BunifuPanel14.Controls.Add(Me.BunifuLabel40)
+        Me.BunifuPanel14.Controls.Add(Me.BunifuSeparator5)
+        Me.BunifuPanel14.Location = New System.Drawing.Point(45, 90)
+        Me.BunifuPanel14.Name = "BunifuPanel14"
+        Me.BunifuPanel14.ShowBorders = True
+        Me.BunifuPanel14.Size = New System.Drawing.Size(259, 324)
+        Me.BunifuPanel14.TabIndex = 26
+        '
+        'BunifuLabel33
+        '
+        Me.BunifuLabel33.AllowParentOverrides = False
+        Me.BunifuLabel33.AutoEllipsis = False
+        Me.BunifuLabel33.CursorType = Nothing
+        Me.BunifuLabel33.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel33.Location = New System.Drawing.Point(22, 284)
+        Me.BunifuLabel33.Name = "BunifuLabel33"
+        Me.BunifuLabel33.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel33.Size = New System.Drawing.Size(187, 15)
+        Me.BunifuLabel33.TabIndex = 2
+        Me.BunifuLabel33.Text = "LMS-SMKBJ Administrator Account"
+        Me.BunifuLabel33.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel33.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel40
+        '
+        Me.BunifuLabel40.AllowParentOverrides = False
+        Me.BunifuLabel40.AutoEllipsis = False
+        Me.BunifuLabel40.CursorType = Nothing
+        Me.BunifuLabel40.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel40.Location = New System.Drawing.Point(22, 263)
+        Me.BunifuLabel40.Name = "BunifuLabel40"
+        Me.BunifuLabel40.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel40.Size = New System.Drawing.Size(61, 15)
+        Me.BunifuLabel40.TabIndex = 1
+        Me.BunifuLabel40.Text = "User Details"
+        Me.BunifuLabel40.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel40.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuSeparator5
+        '
+        Me.BunifuSeparator5.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuSeparator5.BackgroundImage = CType(resources.GetObject("BunifuSeparator5.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuSeparator5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuSeparator5.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Flat
+        Me.BunifuSeparator5.LineColor = System.Drawing.Color.DimGray
+        Me.BunifuSeparator5.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid
+        Me.BunifuSeparator5.LineThickness = 1
+        Me.BunifuSeparator5.Location = New System.Drawing.Point(2, 243)
+        Me.BunifuSeparator5.Name = "BunifuSeparator5"
+        Me.BunifuSeparator5.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal
+        Me.BunifuSeparator5.Size = New System.Drawing.Size(333, 14)
+        Me.BunifuSeparator5.TabIndex = 0
         '
         'BookCatalog
         '
@@ -1146,6 +1300,7 @@ Partial Class AdminMenu
         '
         'UserAcc
         '
+        Me.UserAcc.Controls.Add(Me.BunifuSeparator3)
         Me.UserAcc.Controls.Add(Me.UserAcc_Pages)
         Me.UserAcc.Controls.Add(Me.BunifuPanel4)
         Me.UserAcc.Location = New System.Drawing.Point(4, 4)
@@ -1155,6 +1310,21 @@ Partial Class AdminMenu
         Me.UserAcc.TabIndex = 6
         Me.UserAcc.Text = "UserAcc"
         Me.UserAcc.UseVisualStyleBackColor = True
+        '
+        'BunifuSeparator3
+        '
+        Me.BunifuSeparator3.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuSeparator3.BackgroundImage = CType(resources.GetObject("BunifuSeparator3.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuSeparator3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuSeparator3.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Flat
+        Me.BunifuSeparator3.LineColor = System.Drawing.Color.Silver
+        Me.BunifuSeparator3.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid
+        Me.BunifuSeparator3.LineThickness = 1
+        Me.BunifuSeparator3.Location = New System.Drawing.Point(6, 58)
+        Me.BunifuSeparator3.Name = "BunifuSeparator3"
+        Me.BunifuSeparator3.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal
+        Me.BunifuSeparator3.Size = New System.Drawing.Size(995, 12)
+        Me.BunifuSeparator3.TabIndex = 2
         '
         'UserAcc_Pages
         '
@@ -1412,7 +1582,10 @@ Partial Class AdminMenu
         '
         'Modify_UserAcc
         '
-        Me.Modify_UserAcc.Controls.Add(Me.BunifuDataGridView1)
+        Me.Modify_UserAcc.Controls.Add(Me.BunifuPanel7)
+        Me.Modify_UserAcc.Controls.Add(Me.BunifuPanel6)
+        Me.Modify_UserAcc.Controls.Add(Me.Label8)
+        Me.Modify_UserAcc.Controls.Add(Me.ModifyUserAttribute_UserAcc)
         Me.Modify_UserAcc.Location = New System.Drawing.Point(4, 4)
         Me.Modify_UserAcc.Name = "Modify_UserAcc"
         Me.Modify_UserAcc.Padding = New System.Windows.Forms.Padding(3)
@@ -1421,17 +1594,444 @@ Partial Class AdminMenu
         Me.Modify_UserAcc.Text = "Modify_UserAcc"
         Me.Modify_UserAcc.UseVisualStyleBackColor = True
         '
-        'BunifuDataGridView1
+        'BunifuPanel7
         '
-        Me.BunifuDataGridView1.AllowCustomTheming = False
+        Me.BunifuPanel7.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(243, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.BunifuPanel7.BackgroundImage = CType(resources.GetObject("BunifuPanel7.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuPanel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuPanel7.BorderColor = System.Drawing.Color.Transparent
+        Me.BunifuPanel7.BorderRadius = 3
+        Me.BunifuPanel7.BorderThickness = 1
+        Me.BunifuPanel7.Controls.Add(Me.DeleteButton_Modify_UserAcc)
+        Me.BunifuPanel7.Controls.Add(Me.BunifuLabel12)
+        Me.BunifuPanel7.Controls.Add(Me.userType_dt_Modify_UserAcc)
+        Me.BunifuPanel7.Controls.Add(Me.BunifuLabel11)
+        Me.BunifuPanel7.Controls.Add(Me.BunifuLabel10)
+        Me.BunifuPanel7.Controls.Add(Me.BunifuLabel9)
+        Me.BunifuPanel7.Controls.Add(Me.matid_dt_Modify_UserAcc)
+        Me.BunifuPanel7.Controls.Add(Me.password_dt_Modify_UserAcc)
+        Me.BunifuPanel7.Controls.Add(Me.fullname_dt_Modify_UserAcc)
+        Me.BunifuPanel7.Controls.Add(Me.BunifuLabel7)
+        Me.BunifuPanel7.Controls.Add(Me.UpdateButton_Modify_UserAcc)
+        Me.BunifuPanel7.Controls.Add(Me.userID_dt_Modify_UserAcc)
+        Me.BunifuPanel7.Controls.Add(Me.BunifuLabel8)
+        Me.BunifuPanel7.Controls.Add(Me.BunifuSeparator2)
+        Me.BunifuPanel7.Location = New System.Drawing.Point(32, 213)
+        Me.BunifuPanel7.Name = "BunifuPanel7"
+        Me.BunifuPanel7.ShowBorders = True
+        Me.BunifuPanel7.Size = New System.Drawing.Size(335, 320)
+        Me.BunifuPanel7.TabIndex = 16
+        '
+        'DeleteButton_Modify_UserAcc
+        '
+        Me.DeleteButton_Modify_UserAcc.AllowToggling = False
+        Me.DeleteButton_Modify_UserAcc.AnimationSpeed = 200
+        Me.DeleteButton_Modify_UserAcc.AutoGenerateColors = False
+        Me.DeleteButton_Modify_UserAcc.AutoSizeLeftIcon = True
+        Me.DeleteButton_Modify_UserAcc.AutoSizeRightIcon = True
+        Me.DeleteButton_Modify_UserAcc.BackColor = System.Drawing.Color.Transparent
+        Me.DeleteButton_Modify_UserAcc.BackColor1 = System.Drawing.Color.DodgerBlue
+        Me.DeleteButton_Modify_UserAcc.BackgroundImage = CType(resources.GetObject("DeleteButton_Modify_UserAcc.BackgroundImage"), System.Drawing.Image)
+        Me.DeleteButton_Modify_UserAcc.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.DeleteButton_Modify_UserAcc.ButtonText = "Delete"
+        Me.DeleteButton_Modify_UserAcc.ButtonTextMarginLeft = 0
+        Me.DeleteButton_Modify_UserAcc.ColorContrastOnClick = 45
+        Me.DeleteButton_Modify_UserAcc.ColorContrastOnHover = 45
+        Me.DeleteButton_Modify_UserAcc.Cursor = System.Windows.Forms.Cursors.Default
+        BorderEdges10.BottomLeft = True
+        BorderEdges10.BottomRight = True
+        BorderEdges10.TopLeft = True
+        BorderEdges10.TopRight = True
+        Me.DeleteButton_Modify_UserAcc.CustomizableEdges = BorderEdges10
+        Me.DeleteButton_Modify_UserAcc.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.DeleteButton_Modify_UserAcc.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.DeleteButton_Modify_UserAcc.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.DeleteButton_Modify_UserAcc.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.DeleteButton_Modify_UserAcc.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.DeleteButton_Modify_UserAcc.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.DeleteButton_Modify_UserAcc.ForeColor = System.Drawing.Color.White
+        Me.DeleteButton_Modify_UserAcc.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.DeleteButton_Modify_UserAcc.IconLeftCursor = System.Windows.Forms.Cursors.Default
+        Me.DeleteButton_Modify_UserAcc.IconLeftPadding = New System.Windows.Forms.Padding(11, 3, 3, 3)
+        Me.DeleteButton_Modify_UserAcc.IconMarginLeft = 11
+        Me.DeleteButton_Modify_UserAcc.IconPadding = 10
+        Me.DeleteButton_Modify_UserAcc.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.DeleteButton_Modify_UserAcc.IconRightCursor = System.Windows.Forms.Cursors.Default
+        Me.DeleteButton_Modify_UserAcc.IconRightPadding = New System.Windows.Forms.Padding(3, 3, 7, 3)
+        Me.DeleteButton_Modify_UserAcc.IconSize = 25
+        Me.DeleteButton_Modify_UserAcc.IdleBorderColor = System.Drawing.Color.DodgerBlue
+        Me.DeleteButton_Modify_UserAcc.IdleBorderRadius = 1
+        Me.DeleteButton_Modify_UserAcc.IdleBorderThickness = 1
+        Me.DeleteButton_Modify_UserAcc.IdleFillColor = System.Drawing.Color.DodgerBlue
+        Me.DeleteButton_Modify_UserAcc.IdleIconLeftImage = Nothing
+        Me.DeleteButton_Modify_UserAcc.IdleIconRightImage = Nothing
+        Me.DeleteButton_Modify_UserAcc.IndicateFocus = False
+        Me.DeleteButton_Modify_UserAcc.Location = New System.Drawing.Point(243, 278)
+        Me.DeleteButton_Modify_UserAcc.Name = "DeleteButton_Modify_UserAcc"
+        Me.DeleteButton_Modify_UserAcc.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.DeleteButton_Modify_UserAcc.OnDisabledState.BorderRadius = 1
+        Me.DeleteButton_Modify_UserAcc.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.DeleteButton_Modify_UserAcc.OnDisabledState.BorderThickness = 1
+        Me.DeleteButton_Modify_UserAcc.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.DeleteButton_Modify_UserAcc.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.DeleteButton_Modify_UserAcc.OnDisabledState.IconLeftImage = Nothing
+        Me.DeleteButton_Modify_UserAcc.OnDisabledState.IconRightImage = Nothing
+        Me.DeleteButton_Modify_UserAcc.onHoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.DeleteButton_Modify_UserAcc.onHoverState.BorderRadius = 1
+        Me.DeleteButton_Modify_UserAcc.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.DeleteButton_Modify_UserAcc.onHoverState.BorderThickness = 1
+        Me.DeleteButton_Modify_UserAcc.onHoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.DeleteButton_Modify_UserAcc.onHoverState.ForeColor = System.Drawing.Color.White
+        Me.DeleteButton_Modify_UserAcc.onHoverState.IconLeftImage = Nothing
+        Me.DeleteButton_Modify_UserAcc.onHoverState.IconRightImage = Nothing
+        Me.DeleteButton_Modify_UserAcc.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue
+        Me.DeleteButton_Modify_UserAcc.OnIdleState.BorderRadius = 1
+        Me.DeleteButton_Modify_UserAcc.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.DeleteButton_Modify_UserAcc.OnIdleState.BorderThickness = 1
+        Me.DeleteButton_Modify_UserAcc.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue
+        Me.DeleteButton_Modify_UserAcc.OnIdleState.ForeColor = System.Drawing.Color.White
+        Me.DeleteButton_Modify_UserAcc.OnIdleState.IconLeftImage = Nothing
+        Me.DeleteButton_Modify_UserAcc.OnIdleState.IconRightImage = Nothing
+        Me.DeleteButton_Modify_UserAcc.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        Me.DeleteButton_Modify_UserAcc.OnPressedState.BorderRadius = 1
+        Me.DeleteButton_Modify_UserAcc.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.DeleteButton_Modify_UserAcc.OnPressedState.BorderThickness = 1
+        Me.DeleteButton_Modify_UserAcc.OnPressedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        Me.DeleteButton_Modify_UserAcc.OnPressedState.ForeColor = System.Drawing.Color.White
+        Me.DeleteButton_Modify_UserAcc.OnPressedState.IconLeftImage = Nothing
+        Me.DeleteButton_Modify_UserAcc.OnPressedState.IconRightImage = Nothing
+        Me.DeleteButton_Modify_UserAcc.Size = New System.Drawing.Size(78, 27)
+        Me.DeleteButton_Modify_UserAcc.TabIndex = 25
+        Me.DeleteButton_Modify_UserAcc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.DeleteButton_Modify_UserAcc.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center
+        Me.DeleteButton_Modify_UserAcc.TextMarginLeft = 0
+        Me.DeleteButton_Modify_UserAcc.TextPadding = New System.Windows.Forms.Padding(0)
+        Me.DeleteButton_Modify_UserAcc.UseDefaultRadiusAndThickness = True
+        '
+        'BunifuLabel12
+        '
+        Me.BunifuLabel12.AllowParentOverrides = False
+        Me.BunifuLabel12.AutoEllipsis = False
+        Me.BunifuLabel12.CursorType = Nothing
+        Me.BunifuLabel12.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel12.Location = New System.Drawing.Point(33, 169)
+        Me.BunifuLabel12.Name = "BunifuLabel12"
+        Me.BunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel12.Size = New System.Drawing.Size(78, 15)
+        Me.BunifuLabel12.TabIndex = 24
+        Me.BunifuLabel12.Text = "Enter UserType"
+        Me.BunifuLabel12.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel12.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'userType_dt_Modify_UserAcc
+        '
+        Me.userType_dt_Modify_UserAcc.FormattingEnabled = True
+        Me.userType_dt_Modify_UserAcc.Items.AddRange(New Object() {"USER", "STAFF", "ADMIN"})
+        Me.userType_dt_Modify_UserAcc.Location = New System.Drawing.Point(118, 166)
+        Me.userType_dt_Modify_UserAcc.Name = "userType_dt_Modify_UserAcc"
+        Me.userType_dt_Modify_UserAcc.Size = New System.Drawing.Size(183, 21)
+        Me.userType_dt_Modify_UserAcc.TabIndex = 23
+        Me.userType_dt_Modify_UserAcc.Text = "USER"
+        '
+        'BunifuLabel11
+        '
+        Me.BunifuLabel11.AllowParentOverrides = False
+        Me.BunifuLabel11.AutoEllipsis = False
+        Me.BunifuLabel11.CursorType = Nothing
+        Me.BunifuLabel11.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel11.Location = New System.Drawing.Point(33, 141)
+        Me.BunifuLabel11.Name = "BunifuLabel11"
+        Me.BunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel11.Size = New System.Drawing.Size(78, 15)
+        Me.BunifuLabel11.TabIndex = 22
+        Me.BunifuLabel11.Text = "Enter Matric ID"
+        Me.BunifuLabel11.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel11.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel10
+        '
+        Me.BunifuLabel10.AllowParentOverrides = False
+        Me.BunifuLabel10.AutoEllipsis = False
+        Me.BunifuLabel10.CursorType = Nothing
+        Me.BunifuLabel10.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel10.Location = New System.Drawing.Point(33, 115)
+        Me.BunifuLabel10.Name = "BunifuLabel10"
+        Me.BunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel10.Size = New System.Drawing.Size(80, 15)
+        Me.BunifuLabel10.TabIndex = 21
+        Me.BunifuLabel10.Text = "Enter Password"
+        Me.BunifuLabel10.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel10.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel9
+        '
+        Me.BunifuLabel9.AllowParentOverrides = False
+        Me.BunifuLabel9.AutoEllipsis = False
+        Me.BunifuLabel9.CursorType = Nothing
+        Me.BunifuLabel9.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel9.Location = New System.Drawing.Point(33, 89)
+        Me.BunifuLabel9.Name = "BunifuLabel9"
+        Me.BunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel9.Size = New System.Drawing.Size(79, 15)
+        Me.BunifuLabel9.TabIndex = 20
+        Me.BunifuLabel9.Text = "Enter Fullname"
+        Me.BunifuLabel9.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel9.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'matid_dt_Modify_UserAcc
+        '
+        Me.matid_dt_Modify_UserAcc.Location = New System.Drawing.Point(118, 139)
+        Me.matid_dt_Modify_UserAcc.Name = "matid_dt_Modify_UserAcc"
+        Me.matid_dt_Modify_UserAcc.Size = New System.Drawing.Size(183, 20)
+        Me.matid_dt_Modify_UserAcc.TabIndex = 18
+        '
+        'password_dt_Modify_UserAcc
+        '
+        Me.password_dt_Modify_UserAcc.Location = New System.Drawing.Point(118, 113)
+        Me.password_dt_Modify_UserAcc.Name = "password_dt_Modify_UserAcc"
+        Me.password_dt_Modify_UserAcc.Size = New System.Drawing.Size(183, 20)
+        Me.password_dt_Modify_UserAcc.TabIndex = 17
+        '
+        'fullname_dt_Modify_UserAcc
+        '
+        Me.fullname_dt_Modify_UserAcc.Location = New System.Drawing.Point(118, 87)
+        Me.fullname_dt_Modify_UserAcc.Name = "fullname_dt_Modify_UserAcc"
+        Me.fullname_dt_Modify_UserAcc.Size = New System.Drawing.Size(183, 20)
+        Me.fullname_dt_Modify_UserAcc.TabIndex = 16
+        '
+        'BunifuLabel7
+        '
+        Me.BunifuLabel7.AllowParentOverrides = False
+        Me.BunifuLabel7.AutoEllipsis = False
+        Me.BunifuLabel7.CursorType = Nothing
+        Me.BunifuLabel7.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel7.Location = New System.Drawing.Point(33, 61)
+        Me.BunifuLabel7.Name = "BunifuLabel7"
+        Me.BunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel7.Size = New System.Drawing.Size(67, 15)
+        Me.BunifuLabel7.TabIndex = 15
+        Me.BunifuLabel7.Text = "Enter User ID"
+        Me.BunifuLabel7.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel7.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'UpdateButton_Modify_UserAcc
+        '
+        Me.UpdateButton_Modify_UserAcc.AllowToggling = False
+        Me.UpdateButton_Modify_UserAcc.AnimationSpeed = 200
+        Me.UpdateButton_Modify_UserAcc.AutoGenerateColors = False
+        Me.UpdateButton_Modify_UserAcc.AutoSizeLeftIcon = True
+        Me.UpdateButton_Modify_UserAcc.AutoSizeRightIcon = True
+        Me.UpdateButton_Modify_UserAcc.BackColor = System.Drawing.Color.Transparent
+        Me.UpdateButton_Modify_UserAcc.BackColor1 = System.Drawing.Color.DodgerBlue
+        Me.UpdateButton_Modify_UserAcc.BackgroundImage = CType(resources.GetObject("UpdateButton_Modify_UserAcc.BackgroundImage"), System.Drawing.Image)
+        Me.UpdateButton_Modify_UserAcc.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.UpdateButton_Modify_UserAcc.ButtonText = "Update"
+        Me.UpdateButton_Modify_UserAcc.ButtonTextMarginLeft = 0
+        Me.UpdateButton_Modify_UserAcc.ColorContrastOnClick = 45
+        Me.UpdateButton_Modify_UserAcc.ColorContrastOnHover = 45
+        Me.UpdateButton_Modify_UserAcc.Cursor = System.Windows.Forms.Cursors.Default
+        BorderEdges11.BottomLeft = True
+        BorderEdges11.BottomRight = True
+        BorderEdges11.TopLeft = True
+        BorderEdges11.TopRight = True
+        Me.UpdateButton_Modify_UserAcc.CustomizableEdges = BorderEdges11
+        Me.UpdateButton_Modify_UserAcc.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.UpdateButton_Modify_UserAcc.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.UpdateButton_Modify_UserAcc.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.UpdateButton_Modify_UserAcc.DisabledForecolor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.UpdateButton_Modify_UserAcc.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
+        Me.UpdateButton_Modify_UserAcc.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.UpdateButton_Modify_UserAcc.ForeColor = System.Drawing.Color.White
+        Me.UpdateButton_Modify_UserAcc.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.UpdateButton_Modify_UserAcc.IconLeftCursor = System.Windows.Forms.Cursors.Default
+        Me.UpdateButton_Modify_UserAcc.IconLeftPadding = New System.Windows.Forms.Padding(11, 3, 3, 3)
+        Me.UpdateButton_Modify_UserAcc.IconMarginLeft = 11
+        Me.UpdateButton_Modify_UserAcc.IconPadding = 10
+        Me.UpdateButton_Modify_UserAcc.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.UpdateButton_Modify_UserAcc.IconRightCursor = System.Windows.Forms.Cursors.Default
+        Me.UpdateButton_Modify_UserAcc.IconRightPadding = New System.Windows.Forms.Padding(3, 3, 7, 3)
+        Me.UpdateButton_Modify_UserAcc.IconSize = 25
+        Me.UpdateButton_Modify_UserAcc.IdleBorderColor = System.Drawing.Color.DodgerBlue
+        Me.UpdateButton_Modify_UserAcc.IdleBorderRadius = 1
+        Me.UpdateButton_Modify_UserAcc.IdleBorderThickness = 1
+        Me.UpdateButton_Modify_UserAcc.IdleFillColor = System.Drawing.Color.DodgerBlue
+        Me.UpdateButton_Modify_UserAcc.IdleIconLeftImage = Nothing
+        Me.UpdateButton_Modify_UserAcc.IdleIconRightImage = Nothing
+        Me.UpdateButton_Modify_UserAcc.IndicateFocus = False
+        Me.UpdateButton_Modify_UserAcc.Location = New System.Drawing.Point(159, 278)
+        Me.UpdateButton_Modify_UserAcc.Name = "UpdateButton_Modify_UserAcc"
+        Me.UpdateButton_Modify_UserAcc.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
+        Me.UpdateButton_Modify_UserAcc.OnDisabledState.BorderRadius = 1
+        Me.UpdateButton_Modify_UserAcc.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.UpdateButton_Modify_UserAcc.OnDisabledState.BorderThickness = 1
+        Me.UpdateButton_Modify_UserAcc.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.UpdateButton_Modify_UserAcc.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(168, Byte), Integer), CType(CType(160, Byte), Integer), CType(CType(168, Byte), Integer))
+        Me.UpdateButton_Modify_UserAcc.OnDisabledState.IconLeftImage = Nothing
+        Me.UpdateButton_Modify_UserAcc.OnDisabledState.IconRightImage = Nothing
+        Me.UpdateButton_Modify_UserAcc.onHoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.UpdateButton_Modify_UserAcc.onHoverState.BorderRadius = 1
+        Me.UpdateButton_Modify_UserAcc.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.UpdateButton_Modify_UserAcc.onHoverState.BorderThickness = 1
+        Me.UpdateButton_Modify_UserAcc.onHoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(105, Byte), Integer), CType(CType(181, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.UpdateButton_Modify_UserAcc.onHoverState.ForeColor = System.Drawing.Color.White
+        Me.UpdateButton_Modify_UserAcc.onHoverState.IconLeftImage = Nothing
+        Me.UpdateButton_Modify_UserAcc.onHoverState.IconRightImage = Nothing
+        Me.UpdateButton_Modify_UserAcc.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue
+        Me.UpdateButton_Modify_UserAcc.OnIdleState.BorderRadius = 1
+        Me.UpdateButton_Modify_UserAcc.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.UpdateButton_Modify_UserAcc.OnIdleState.BorderThickness = 1
+        Me.UpdateButton_Modify_UserAcc.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue
+        Me.UpdateButton_Modify_UserAcc.OnIdleState.ForeColor = System.Drawing.Color.White
+        Me.UpdateButton_Modify_UserAcc.OnIdleState.IconLeftImage = Nothing
+        Me.UpdateButton_Modify_UserAcc.OnIdleState.IconRightImage = Nothing
+        Me.UpdateButton_Modify_UserAcc.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        Me.UpdateButton_Modify_UserAcc.OnPressedState.BorderRadius = 1
+        Me.UpdateButton_Modify_UserAcc.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
+        Me.UpdateButton_Modify_UserAcc.OnPressedState.BorderThickness = 1
+        Me.UpdateButton_Modify_UserAcc.OnPressedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(144, Byte), Integer))
+        Me.UpdateButton_Modify_UserAcc.OnPressedState.ForeColor = System.Drawing.Color.White
+        Me.UpdateButton_Modify_UserAcc.OnPressedState.IconLeftImage = Nothing
+        Me.UpdateButton_Modify_UserAcc.OnPressedState.IconRightImage = Nothing
+        Me.UpdateButton_Modify_UserAcc.Size = New System.Drawing.Size(78, 27)
+        Me.UpdateButton_Modify_UserAcc.TabIndex = 14
+        Me.UpdateButton_Modify_UserAcc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.UpdateButton_Modify_UserAcc.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center
+        Me.UpdateButton_Modify_UserAcc.TextMarginLeft = 0
+        Me.UpdateButton_Modify_UserAcc.TextPadding = New System.Windows.Forms.Padding(0)
+        Me.UpdateButton_Modify_UserAcc.UseDefaultRadiusAndThickness = True
+        '
+        'userID_dt_Modify_UserAcc
+        '
+        Me.userID_dt_Modify_UserAcc.Location = New System.Drawing.Point(118, 61)
+        Me.userID_dt_Modify_UserAcc.Name = "userID_dt_Modify_UserAcc"
+        Me.userID_dt_Modify_UserAcc.Size = New System.Drawing.Size(183, 20)
+        Me.userID_dt_Modify_UserAcc.TabIndex = 2
+        '
+        'BunifuLabel8
+        '
+        Me.BunifuLabel8.AllowParentOverrides = False
+        Me.BunifuLabel8.AutoEllipsis = False
+        Me.BunifuLabel8.CursorType = Nothing
+        Me.BunifuLabel8.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel8.Location = New System.Drawing.Point(18, 9)
+        Me.BunifuLabel8.Name = "BunifuLabel8"
+        Me.BunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel8.Size = New System.Drawing.Size(61, 15)
+        Me.BunifuLabel8.TabIndex = 1
+        Me.BunifuLabel8.Text = "User Details"
+        Me.BunifuLabel8.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel8.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuSeparator2
+        '
+        Me.BunifuSeparator2.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuSeparator2.BackgroundImage = CType(resources.GetObject("BunifuSeparator2.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuSeparator2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuSeparator2.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Flat
+        Me.BunifuSeparator2.LineColor = System.Drawing.Color.DimGray
+        Me.BunifuSeparator2.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid
+        Me.BunifuSeparator2.LineThickness = 1
+        Me.BunifuSeparator2.Location = New System.Drawing.Point(3, 25)
+        Me.BunifuSeparator2.Name = "BunifuSeparator2"
+        Me.BunifuSeparator2.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal
+        Me.BunifuSeparator2.Size = New System.Drawing.Size(329, 14)
+        Me.BunifuSeparator2.TabIndex = 0
+        '
+        'BunifuPanel6
+        '
+        Me.BunifuPanel6.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(243, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.BunifuPanel6.BackgroundImage = CType(resources.GetObject("BunifuPanel6.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuPanel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuPanel6.BorderColor = System.Drawing.Color.Transparent
+        Me.BunifuPanel6.BorderRadius = 3
+        Me.BunifuPanel6.BorderThickness = 1
+        Me.BunifuPanel6.Controls.Add(Me.BunifuLabel6)
+        Me.BunifuPanel6.Controls.Add(Me.SearchBox_Modify_UserAcc)
+        Me.BunifuPanel6.Controls.Add(Me.BunifuLabel5)
+        Me.BunifuPanel6.Controls.Add(Me.BunifuSeparator1)
+        Me.BunifuPanel6.Location = New System.Drawing.Point(32, 70)
+        Me.BunifuPanel6.Name = "BunifuPanel6"
+        Me.BunifuPanel6.ShowBorders = True
+        Me.BunifuPanel6.Size = New System.Drawing.Size(335, 131)
+        Me.BunifuPanel6.TabIndex = 2
+        '
+        'BunifuLabel6
+        '
+        Me.BunifuLabel6.AllowParentOverrides = False
+        Me.BunifuLabel6.AutoEllipsis = False
+        Me.BunifuLabel6.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel6.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel6.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel6.Location = New System.Drawing.Point(33, 72)
+        Me.BunifuLabel6.Name = "BunifuLabel6"
+        Me.BunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel6.Size = New System.Drawing.Size(67, 15)
+        Me.BunifuLabel6.TabIndex = 15
+        Me.BunifuLabel6.Text = "Enter User ID"
+        Me.BunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'SearchBox_Modify_UserAcc
+        '
+        Me.SearchBox_Modify_UserAcc.Location = New System.Drawing.Point(118, 72)
+        Me.SearchBox_Modify_UserAcc.Name = "SearchBox_Modify_UserAcc"
+        Me.SearchBox_Modify_UserAcc.Size = New System.Drawing.Size(183, 20)
+        Me.SearchBox_Modify_UserAcc.TabIndex = 2
+        '
+        'BunifuLabel5
+        '
+        Me.BunifuLabel5.AllowParentOverrides = False
+        Me.BunifuLabel5.AutoEllipsis = False
+        Me.BunifuLabel5.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel5.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel5.Location = New System.Drawing.Point(18, 9)
+        Me.BunifuLabel5.Name = "BunifuLabel5"
+        Me.BunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel5.Size = New System.Drawing.Size(35, 15)
+        Me.BunifuLabel5.TabIndex = 1
+        Me.BunifuLabel5.Text = "Search"
+        Me.BunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuSeparator1
+        '
+        Me.BunifuSeparator1.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuSeparator1.BackgroundImage = CType(resources.GetObject("BunifuSeparator1.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuSeparator1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuSeparator1.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Flat
+        Me.BunifuSeparator1.LineColor = System.Drawing.Color.DimGray
+        Me.BunifuSeparator1.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid
+        Me.BunifuSeparator1.LineThickness = 1
+        Me.BunifuSeparator1.Location = New System.Drawing.Point(3, 25)
+        Me.BunifuSeparator1.Name = "BunifuSeparator1"
+        Me.BunifuSeparator1.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal
+        Me.BunifuSeparator1.Size = New System.Drawing.Size(329, 14)
+        Me.BunifuSeparator1.TabIndex = 0
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(24, 14)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(343, 45)
+        Me.Label8.TabIndex = 1
+        Me.Label8.Text = "Modify User Attributes"
+        '
+        'ModifyUserAttribute_UserAcc
+        '
+        Me.ModifyUserAttribute_UserAcc.AllowCustomTheming = False
+        Me.ModifyUserAttribute_UserAcc.AllowUserToAddRows = False
+        Me.ModifyUserAttribute_UserAcc.AllowUserToDeleteRows = False
         DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(251, Byte), Integer), CType(CType(255, Byte), Integer))
         DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
-        Me.BunifuDataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        Me.BunifuDataGridView1.AutoGenerateColumns = False
-        Me.BunifuDataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.BunifuDataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.BunifuDataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
-        Me.BunifuDataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.ModifyUserAttribute_UserAcc.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Me.ModifyUserAttribute_UserAcc.AutoGenerateColumns = False
+        Me.ModifyUserAttribute_UserAcc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.ModifyUserAttribute_UserAcc.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ModifyUserAttribute_UserAcc.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.ModifyUserAttribute_UserAcc.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue
         DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI Semibold", 11.75!, System.Drawing.FontStyle.Bold)
@@ -1439,28 +2039,28 @@ Partial Class AdminMenu
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(115, Byte), Integer), CType(CType(204, Byte), Integer))
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White
         DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.BunifuDataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        Me.BunifuDataGridView1.ColumnHeadersHeight = 40
-        Me.BunifuDataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.UserIDDataGridViewTextBoxColumn, Me.FullnameDataGridViewTextBoxColumn, Me.PasswordDataGridViewTextBoxColumn, Me.PhonenoDataGridViewTextBoxColumn, Me.MatricidDataGridViewTextBoxColumn, Me.UserTypeDataGridViewTextBoxColumn})
-        Me.BunifuDataGridView1.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(251, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuDataGridView1.CurrentTheme.AlternatingRowsStyle.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.BunifuDataGridView1.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black
-        Me.BunifuDataGridView1.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuDataGridView1.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black
-        Me.BunifuDataGridView1.CurrentTheme.BackColor = System.Drawing.Color.White
-        Me.BunifuDataGridView1.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuDataGridView1.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue
-        Me.BunifuDataGridView1.CurrentTheme.HeaderStyle.Font = New System.Drawing.Font("Segoe UI Semibold", 11.75!, System.Drawing.FontStyle.Bold)
-        Me.BunifuDataGridView1.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White
-        Me.BunifuDataGridView1.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(115, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuDataGridView1.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White
-        Me.BunifuDataGridView1.CurrentTheme.Name = Nothing
-        Me.BunifuDataGridView1.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White
-        Me.BunifuDataGridView1.CurrentTheme.RowsStyle.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.BunifuDataGridView1.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black
-        Me.BunifuDataGridView1.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuDataGridView1.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black
-        Me.BunifuDataGridView1.DataSource = Me.UsersBindingSource
+        Me.ModifyUserAttribute_UserAcc.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.ModifyUserAttribute_UserAcc.ColumnHeadersHeight = 40
+        Me.ModifyUserAttribute_UserAcc.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.UserIDDataGridViewTextBoxColumn, Me.FullnameDataGridViewTextBoxColumn, Me.PasswordDataGridViewTextBoxColumn, Me.PhonenoDataGridViewTextBoxColumn, Me.MatricidDataGridViewTextBoxColumn, Me.UserTypeDataGridViewTextBoxColumn})
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(251, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.AlternatingRowsStyle.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.BackColor = System.Drawing.Color.White
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.HeaderStyle.Font = New System.Drawing.Font("Segoe UI Semibold", 11.75!, System.Drawing.FontStyle.Bold)
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(115, Byte), Integer), CType(CType(204, Byte), Integer))
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.Name = Nothing
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.RowsStyle.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ModifyUserAttribute_UserAcc.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black
+        Me.ModifyUserAttribute_UserAcc.DataSource = Me.UsersBindingSource
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
         DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold)
@@ -1468,56 +2068,63 @@ Partial Class AdminMenu
         DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(210, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(255, Byte), Integer))
         DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.BunifuDataGridView1.DefaultCellStyle = DataGridViewCellStyle3
-        Me.BunifuDataGridView1.EnableHeadersVisualStyles = False
-        Me.BunifuDataGridView1.GridColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BunifuDataGridView1.HeaderBackColor = System.Drawing.Color.DodgerBlue
-        Me.BunifuDataGridView1.HeaderBgColor = System.Drawing.Color.Empty
-        Me.BunifuDataGridView1.HeaderForeColor = System.Drawing.Color.White
-        Me.BunifuDataGridView1.Location = New System.Drawing.Point(6, 6)
-        Me.BunifuDataGridView1.Name = "BunifuDataGridView1"
-        Me.BunifuDataGridView1.RowHeadersVisible = False
-        Me.BunifuDataGridView1.RowTemplate.Height = 40
-        Me.BunifuDataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.BunifuDataGridView1.Size = New System.Drawing.Size(969, 527)
-        Me.BunifuDataGridView1.TabIndex = 0
-        Me.BunifuDataGridView1.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light
+        Me.ModifyUserAttribute_UserAcc.DefaultCellStyle = DataGridViewCellStyle3
+        Me.ModifyUserAttribute_UserAcc.EnableHeadersVisualStyles = False
+        Me.ModifyUserAttribute_UserAcc.GridColor = System.Drawing.Color.FromArgb(CType(CType(221, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ModifyUserAttribute_UserAcc.HeaderBackColor = System.Drawing.Color.DodgerBlue
+        Me.ModifyUserAttribute_UserAcc.HeaderBgColor = System.Drawing.Color.Empty
+        Me.ModifyUserAttribute_UserAcc.HeaderForeColor = System.Drawing.Color.White
+        Me.ModifyUserAttribute_UserAcc.Location = New System.Drawing.Point(395, 6)
+        Me.ModifyUserAttribute_UserAcc.Name = "ModifyUserAttribute_UserAcc"
+        Me.ModifyUserAttribute_UserAcc.ReadOnly = True
+        Me.ModifyUserAttribute_UserAcc.RowHeadersVisible = False
+        Me.ModifyUserAttribute_UserAcc.RowTemplate.Height = 40
+        Me.ModifyUserAttribute_UserAcc.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.ModifyUserAttribute_UserAcc.Size = New System.Drawing.Size(580, 527)
+        Me.ModifyUserAttribute_UserAcc.TabIndex = 0
+        Me.ModifyUserAttribute_UserAcc.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light
         '
         'UserIDDataGridViewTextBoxColumn
         '
         Me.UserIDDataGridViewTextBoxColumn.DataPropertyName = "userID"
         Me.UserIDDataGridViewTextBoxColumn.HeaderText = "userID"
         Me.UserIDDataGridViewTextBoxColumn.Name = "UserIDDataGridViewTextBoxColumn"
+        Me.UserIDDataGridViewTextBoxColumn.ReadOnly = True
         '
         'FullnameDataGridViewTextBoxColumn
         '
         Me.FullnameDataGridViewTextBoxColumn.DataPropertyName = "fullname"
         Me.FullnameDataGridViewTextBoxColumn.HeaderText = "fullname"
         Me.FullnameDataGridViewTextBoxColumn.Name = "FullnameDataGridViewTextBoxColumn"
+        Me.FullnameDataGridViewTextBoxColumn.ReadOnly = True
         '
         'PasswordDataGridViewTextBoxColumn
         '
         Me.PasswordDataGridViewTextBoxColumn.DataPropertyName = "password"
         Me.PasswordDataGridViewTextBoxColumn.HeaderText = "password"
         Me.PasswordDataGridViewTextBoxColumn.Name = "PasswordDataGridViewTextBoxColumn"
+        Me.PasswordDataGridViewTextBoxColumn.ReadOnly = True
         '
         'PhonenoDataGridViewTextBoxColumn
         '
         Me.PhonenoDataGridViewTextBoxColumn.DataPropertyName = "phone_no"
         Me.PhonenoDataGridViewTextBoxColumn.HeaderText = "phone_no"
         Me.PhonenoDataGridViewTextBoxColumn.Name = "PhonenoDataGridViewTextBoxColumn"
+        Me.PhonenoDataGridViewTextBoxColumn.ReadOnly = True
         '
         'MatricidDataGridViewTextBoxColumn
         '
         Me.MatricidDataGridViewTextBoxColumn.DataPropertyName = "matric_id"
         Me.MatricidDataGridViewTextBoxColumn.HeaderText = "matric_id"
         Me.MatricidDataGridViewTextBoxColumn.Name = "MatricidDataGridViewTextBoxColumn"
+        Me.MatricidDataGridViewTextBoxColumn.ReadOnly = True
         '
         'UserTypeDataGridViewTextBoxColumn
         '
         Me.UserTypeDataGridViewTextBoxColumn.DataPropertyName = "userType"
         Me.UserTypeDataGridViewTextBoxColumn.HeaderText = "userType"
         Me.UserTypeDataGridViewTextBoxColumn.Name = "UserTypeDataGridViewTextBoxColumn"
+        Me.UserTypeDataGridViewTextBoxColumn.ReadOnly = True
         '
         'UsersBindingSource
         '
@@ -1548,7 +2155,6 @@ Partial Class AdminMenu
         Me.BunifuPanel4.BorderRadius = 3
         Me.BunifuPanel4.BorderThickness = 1
         Me.BunifuPanel4.Controls.Add(Me.underline)
-        Me.BunifuPanel4.Controls.Add(Me.CrystalReport_UserAccount)
         Me.BunifuPanel4.Controls.Add(Me.Modify_UserAccount)
         Me.BunifuPanel4.Controls.Add(Me.AddButton_UserAccount)
         Me.BunifuPanel4.Dock = System.Windows.Forms.DockStyle.Top
@@ -1567,92 +2173,6 @@ Partial Class AdminMenu
         Me.underline.TabIndex = 3
         Me.underline.TabStop = False
         '
-        'CrystalReport_UserAccount
-        '
-        Me.CrystalReport_UserAccount.AllowToggling = False
-        Me.CrystalReport_UserAccount.AnimationSpeed = 200
-        Me.CrystalReport_UserAccount.AutoGenerateColors = False
-        Me.CrystalReport_UserAccount.AutoSizeLeftIcon = True
-        Me.CrystalReport_UserAccount.AutoSizeRightIcon = True
-        Me.CrystalReport_UserAccount.BackColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.BackColor1 = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.BackgroundImage = CType(resources.GetObject("CrystalReport_UserAccount.BackgroundImage"), System.Drawing.Image)
-        Me.CrystalReport_UserAccount.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.CrystalReport_UserAccount.ButtonText = "Crystal Reports"
-        Me.CrystalReport_UserAccount.ButtonTextMarginLeft = 0
-        Me.CrystalReport_UserAccount.ColorContrastOnClick = 45
-        Me.CrystalReport_UserAccount.ColorContrastOnHover = 45
-        Me.CrystalReport_UserAccount.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges10.BottomLeft = True
-        BorderEdges10.BottomRight = True
-        BorderEdges10.TopLeft = True
-        BorderEdges10.TopRight = True
-        Me.CrystalReport_UserAccount.CustomizableEdges = BorderEdges10
-        Me.CrystalReport_UserAccount.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.CrystalReport_UserAccount.DisabledBorderColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.DisabledFillColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.DisabledForecolor = System.Drawing.Color.Silver
-        Me.CrystalReport_UserAccount.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed
-        Me.CrystalReport_UserAccount.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.CrystalReport_UserAccount.ForeColor = System.Drawing.Color.Silver
-        Me.CrystalReport_UserAccount.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.CrystalReport_UserAccount.IconLeftCursor = System.Windows.Forms.Cursors.Default
-        Me.CrystalReport_UserAccount.IconLeftPadding = New System.Windows.Forms.Padding(11, 3, 3, 3)
-        Me.CrystalReport_UserAccount.IconMarginLeft = 11
-        Me.CrystalReport_UserAccount.IconPadding = 10
-        Me.CrystalReport_UserAccount.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CrystalReport_UserAccount.IconRightCursor = System.Windows.Forms.Cursors.Default
-        Me.CrystalReport_UserAccount.IconRightPadding = New System.Windows.Forms.Padding(3, 3, 7, 3)
-        Me.CrystalReport_UserAccount.IconSize = 25
-        Me.CrystalReport_UserAccount.IdleBorderColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.IdleBorderRadius = 1
-        Me.CrystalReport_UserAccount.IdleBorderThickness = 1
-        Me.CrystalReport_UserAccount.IdleFillColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.IdleIconLeftImage = Nothing
-        Me.CrystalReport_UserAccount.IdleIconRightImage = Nothing
-        Me.CrystalReport_UserAccount.IndicateFocus = False
-        Me.CrystalReport_UserAccount.Location = New System.Drawing.Point(319, 9)
-        Me.CrystalReport_UserAccount.Name = "CrystalReport_UserAccount"
-        Me.CrystalReport_UserAccount.OnDisabledState.BorderColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.OnDisabledState.BorderRadius = 1
-        Me.CrystalReport_UserAccount.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.CrystalReport_UserAccount.OnDisabledState.BorderThickness = 1
-        Me.CrystalReport_UserAccount.OnDisabledState.FillColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.OnDisabledState.ForeColor = System.Drawing.Color.Silver
-        Me.CrystalReport_UserAccount.OnDisabledState.IconLeftImage = Nothing
-        Me.CrystalReport_UserAccount.OnDisabledState.IconRightImage = Nothing
-        Me.CrystalReport_UserAccount.onHoverState.BorderColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.onHoverState.BorderRadius = 1
-        Me.CrystalReport_UserAccount.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.CrystalReport_UserAccount.onHoverState.BorderThickness = 1
-        Me.CrystalReport_UserAccount.onHoverState.FillColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.onHoverState.ForeColor = System.Drawing.Color.Silver
-        Me.CrystalReport_UserAccount.onHoverState.IconLeftImage = Nothing
-        Me.CrystalReport_UserAccount.onHoverState.IconRightImage = Nothing
-        Me.CrystalReport_UserAccount.OnIdleState.BorderColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.OnIdleState.BorderRadius = 1
-        Me.CrystalReport_UserAccount.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.CrystalReport_UserAccount.OnIdleState.BorderThickness = 1
-        Me.CrystalReport_UserAccount.OnIdleState.FillColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.OnIdleState.ForeColor = System.Drawing.Color.Silver
-        Me.CrystalReport_UserAccount.OnIdleState.IconLeftImage = Nothing
-        Me.CrystalReport_UserAccount.OnIdleState.IconRightImage = Nothing
-        Me.CrystalReport_UserAccount.OnPressedState.BorderColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.OnPressedState.BorderRadius = 1
-        Me.CrystalReport_UserAccount.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid
-        Me.CrystalReport_UserAccount.OnPressedState.BorderThickness = 1
-        Me.CrystalReport_UserAccount.OnPressedState.FillColor = System.Drawing.Color.Transparent
-        Me.CrystalReport_UserAccount.OnPressedState.ForeColor = System.Drawing.Color.Silver
-        Me.CrystalReport_UserAccount.OnPressedState.IconLeftImage = Nothing
-        Me.CrystalReport_UserAccount.OnPressedState.IconRightImage = Nothing
-        Me.CrystalReport_UserAccount.Size = New System.Drawing.Size(150, 39)
-        Me.CrystalReport_UserAccount.TabIndex = 2
-        Me.CrystalReport_UserAccount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.CrystalReport_UserAccount.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center
-        Me.CrystalReport_UserAccount.TextMarginLeft = 0
-        Me.CrystalReport_UserAccount.TextPadding = New System.Windows.Forms.Padding(0)
-        Me.CrystalReport_UserAccount.UseDefaultRadiusAndThickness = True
-        '
         'Modify_UserAccount
         '
         Me.Modify_UserAccount.AllowToggling = False
@@ -1669,11 +2189,11 @@ Partial Class AdminMenu
         Me.Modify_UserAccount.ColorContrastOnClick = 45
         Me.Modify_UserAccount.ColorContrastOnHover = 45
         Me.Modify_UserAccount.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges11.BottomLeft = True
-        BorderEdges11.BottomRight = True
-        BorderEdges11.TopLeft = True
-        BorderEdges11.TopRight = True
-        Me.Modify_UserAccount.CustomizableEdges = BorderEdges11
+        BorderEdges12.BottomLeft = True
+        BorderEdges12.BottomRight = True
+        BorderEdges12.TopLeft = True
+        BorderEdges12.TopRight = True
+        Me.Modify_UserAccount.CustomizableEdges = BorderEdges12
         Me.Modify_UserAccount.DialogResult = System.Windows.Forms.DialogResult.None
         Me.Modify_UserAccount.DisabledBorderColor = System.Drawing.Color.Transparent
         Me.Modify_UserAccount.DisabledFillColor = System.Drawing.Color.Transparent
@@ -1755,11 +2275,11 @@ Partial Class AdminMenu
         Me.AddButton_UserAccount.ColorContrastOnClick = 45
         Me.AddButton_UserAccount.ColorContrastOnHover = 45
         Me.AddButton_UserAccount.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges12.BottomLeft = True
-        BorderEdges12.BottomRight = True
-        BorderEdges12.TopLeft = True
-        BorderEdges12.TopRight = True
-        Me.AddButton_UserAccount.CustomizableEdges = BorderEdges12
+        BorderEdges13.BottomLeft = True
+        BorderEdges13.BottomRight = True
+        BorderEdges13.TopLeft = True
+        BorderEdges13.TopRight = True
+        Me.AddButton_UserAccount.CustomizableEdges = BorderEdges13
         Me.AddButton_UserAccount.DialogResult = System.Windows.Forms.DialogResult.None
         Me.AddButton_UserAccount.DisabledBorderColor = System.Drawing.Color.Transparent
         Me.AddButton_UserAccount.DisabledFillColor = System.Drawing.Color.Transparent
@@ -1825,6 +2345,529 @@ Partial Class AdminMenu
         Me.AddButton_UserAccount.TextPadding = New System.Windows.Forms.Padding(0)
         Me.AddButton_UserAccount.UseDefaultRadiusAndThickness = True
         '
+        'About
+        '
+        Me.About.Controls.Add(Me.PictureBox4)
+        Me.About.Controls.Add(Me.BunifuLabel28)
+        Me.About.Controls.Add(Me.BunifuLabel29)
+        Me.About.Controls.Add(Me.BunifuLabel27)
+        Me.About.Controls.Add(Me.BunifuPanel12)
+        Me.About.Controls.Add(Me.BunifuPanel11)
+        Me.About.Controls.Add(Me.BunifuPanel10)
+        Me.About.Controls.Add(Me.BunifuPanel9)
+        Me.About.Controls.Add(Me.BunifuPanel8)
+        Me.About.Controls.Add(Me.BunifuLabel16)
+        Me.About.Controls.Add(Me.BunifuLabel15)
+        Me.About.Controls.Add(Me.BunifuLabel14)
+        Me.About.Controls.Add(Me.BunifuLabel13)
+        Me.About.Controls.Add(Me.ApplicationVerLabel)
+        Me.About.Controls.Add(Me.DisclaimerLabelText)
+        Me.About.Controls.Add(Me.DisclaimerLabel)
+        Me.About.Controls.Add(Me.PictureBox3)
+        Me.About.Location = New System.Drawing.Point(4, 4)
+        Me.About.Name = "About"
+        Me.About.Padding = New System.Windows.Forms.Padding(3)
+        Me.About.Size = New System.Drawing.Size(1001, 637)
+        Me.About.TabIndex = 7
+        Me.About.Text = "About"
+        Me.About.UseVisualStyleBackColor = True
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(531, 581)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(464, 50)
+        Me.PictureBox4.TabIndex = 15
+        Me.PictureBox4.TabStop = False
+        '
+        'BunifuLabel28
+        '
+        Me.BunifuLabel28.AllowParentOverrides = False
+        Me.BunifuLabel28.AutoEllipsis = False
+        Me.BunifuLabel28.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel28.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel28.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel28.Location = New System.Drawing.Point(17, 587)
+        Me.BunifuLabel28.Name = "BunifuLabel28"
+        Me.BunifuLabel28.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel28.Size = New System.Drawing.Size(315, 15)
+        Me.BunifuLabel28.TabIndex = 14
+        Me.BunifuLabel28.Text = "Miss Nur Shazlin binti Azhari, VB.NET Lecturer for Section 38"
+        Me.BunifuLabel28.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel28.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel29
+        '
+        Me.BunifuLabel29.AllowParentOverrides = False
+        Me.BunifuLabel29.AutoEllipsis = False
+        Me.BunifuLabel29.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel29.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel29.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel29.Location = New System.Drawing.Point(17, 551)
+        Me.BunifuLabel29.Name = "BunifuLabel29"
+        Me.BunifuLabel29.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel29.Size = New System.Drawing.Size(145, 30)
+        Me.BunifuLabel29.TabIndex = 13
+        Me.BunifuLabel29.Text = "Special Thanks"
+        Me.BunifuLabel29.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel29.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel27
+        '
+        Me.BunifuLabel27.AllowParentOverrides = False
+        Me.BunifuLabel27.AutoEllipsis = False
+        Me.BunifuLabel27.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel27.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel27.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel27.Location = New System.Drawing.Point(17, 221)
+        Me.BunifuLabel27.Name = "BunifuLabel27"
+        Me.BunifuLabel27.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel27.Size = New System.Drawing.Size(553, 15)
+        Me.BunifuLabel27.TabIndex = 12
+        Me.BunifuLabel27.Text = "Additionally, This system is developed to fulfill course requirements for DDWC265" &
+    "3 VB.NET Programming"
+        Me.BunifuLabel27.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel27.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuPanel12
+        '
+        Me.BunifuPanel12.BackgroundColor = System.Drawing.Color.Gainsboro
+        Me.BunifuPanel12.BackgroundImage = CType(resources.GetObject("BunifuPanel12.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuPanel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuPanel12.BorderColor = System.Drawing.Color.Transparent
+        Me.BunifuPanel12.BorderRadius = 3
+        Me.BunifuPanel12.BorderThickness = 1
+        Me.BunifuPanel12.Controls.Add(Me.BunifuLabel25)
+        Me.BunifuPanel12.Controls.Add(Me.BunifuLabel26)
+        Me.BunifuPanel12.Controls.Add(Me.BunifuPictureBox5)
+        Me.BunifuPanel12.Location = New System.Drawing.Point(423, 477)
+        Me.BunifuPanel12.Name = "BunifuPanel12"
+        Me.BunifuPanel12.ShowBorders = True
+        Me.BunifuPanel12.Size = New System.Drawing.Size(266, 59)
+        Me.BunifuPanel12.TabIndex = 11
+        '
+        'BunifuLabel25
+        '
+        Me.BunifuLabel25.AllowParentOverrides = False
+        Me.BunifuLabel25.AutoEllipsis = False
+        Me.BunifuLabel25.CursorType = Nothing
+        Me.BunifuLabel25.Font = New System.Drawing.Font("Segoe UI", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel25.Location = New System.Drawing.Point(62, 32)
+        Me.BunifuLabel25.Name = "BunifuLabel25"
+        Me.BunifuLabel25.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel25.Size = New System.Drawing.Size(61, 12)
+        Me.BunifuLabel25.TabIndex = 2
+        Me.BunifuLabel25.Text = "Documentation"
+        Me.BunifuLabel25.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel25.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel26
+        '
+        Me.BunifuLabel26.AllowParentOverrides = False
+        Me.BunifuLabel26.AutoEllipsis = False
+        Me.BunifuLabel26.CursorType = Nothing
+        Me.BunifuLabel26.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel26.Location = New System.Drawing.Point(62, 14)
+        Me.BunifuLabel26.Name = "BunifuLabel26"
+        Me.BunifuLabel26.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel26.Size = New System.Drawing.Size(165, 15)
+        Me.BunifuLabel26.TabIndex = 1
+        Me.BunifuLabel26.Text = "Khairunnisa binti Che Mahmod"
+        Me.BunifuLabel26.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel26.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuPictureBox5
+        '
+        Me.BunifuPictureBox5.AllowFocused = False
+        Me.BunifuPictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BunifuPictureBox5.AutoSizeHeight = True
+        Me.BunifuPictureBox5.BorderRadius = 21
+        Me.BunifuPictureBox5.Image = CType(resources.GetObject("BunifuPictureBox5.Image"), System.Drawing.Image)
+        Me.BunifuPictureBox5.IsCircle = True
+        Me.BunifuPictureBox5.Location = New System.Drawing.Point(12, 8)
+        Me.BunifuPictureBox5.Name = "BunifuPictureBox5"
+        Me.BunifuPictureBox5.Size = New System.Drawing.Size(43, 43)
+        Me.BunifuPictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuPictureBox5.TabIndex = 0
+        Me.BunifuPictureBox5.TabStop = False
+        Me.BunifuPictureBox5.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle
+        '
+        'BunifuPanel11
+        '
+        Me.BunifuPanel11.BackgroundColor = System.Drawing.Color.Gainsboro
+        Me.BunifuPanel11.BackgroundImage = CType(resources.GetObject("BunifuPanel11.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuPanel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuPanel11.BorderColor = System.Drawing.Color.Transparent
+        Me.BunifuPanel11.BorderRadius = 3
+        Me.BunifuPanel11.BorderThickness = 1
+        Me.BunifuPanel11.Controls.Add(Me.BunifuLabel17)
+        Me.BunifuPanel11.Controls.Add(Me.BunifuLabel18)
+        Me.BunifuPanel11.Controls.Add(Me.BunifuPictureBox4)
+        Me.BunifuPanel11.Location = New System.Drawing.Point(151, 477)
+        Me.BunifuPanel11.Name = "BunifuPanel11"
+        Me.BunifuPanel11.ShowBorders = True
+        Me.BunifuPanel11.Size = New System.Drawing.Size(266, 59)
+        Me.BunifuPanel11.TabIndex = 11
+        '
+        'BunifuLabel17
+        '
+        Me.BunifuLabel17.AllowParentOverrides = False
+        Me.BunifuLabel17.AutoEllipsis = False
+        Me.BunifuLabel17.CursorType = Nothing
+        Me.BunifuLabel17.Font = New System.Drawing.Font("Segoe UI", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel17.Location = New System.Drawing.Point(62, 32)
+        Me.BunifuLabel17.Name = "BunifuLabel17"
+        Me.BunifuLabel17.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel17.Size = New System.Drawing.Size(61, 12)
+        Me.BunifuLabel17.TabIndex = 2
+        Me.BunifuLabel17.Text = "Documentation "
+        Me.BunifuLabel17.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel17.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel18
+        '
+        Me.BunifuLabel18.AllowParentOverrides = False
+        Me.BunifuLabel18.AutoEllipsis = False
+        Me.BunifuLabel18.CursorType = Nothing
+        Me.BunifuLabel18.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel18.Location = New System.Drawing.Point(62, 14)
+        Me.BunifuLabel18.Name = "BunifuLabel18"
+        Me.BunifuLabel18.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel18.Size = New System.Drawing.Size(155, 15)
+        Me.BunifuLabel18.TabIndex = 1
+        Me.BunifuLabel18.Text = "Balqis Aqilah binti Abd Malek"
+        Me.BunifuLabel18.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel18.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuPictureBox4
+        '
+        Me.BunifuPictureBox4.AllowFocused = False
+        Me.BunifuPictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BunifuPictureBox4.AutoSizeHeight = True
+        Me.BunifuPictureBox4.BorderRadius = 21
+        Me.BunifuPictureBox4.Image = CType(resources.GetObject("BunifuPictureBox4.Image"), System.Drawing.Image)
+        Me.BunifuPictureBox4.IsCircle = True
+        Me.BunifuPictureBox4.Location = New System.Drawing.Point(12, 8)
+        Me.BunifuPictureBox4.Name = "BunifuPictureBox4"
+        Me.BunifuPictureBox4.Size = New System.Drawing.Size(43, 43)
+        Me.BunifuPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuPictureBox4.TabIndex = 0
+        Me.BunifuPictureBox4.TabStop = False
+        Me.BunifuPictureBox4.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle
+        '
+        'BunifuPanel10
+        '
+        Me.BunifuPanel10.BackgroundColor = System.Drawing.Color.Gainsboro
+        Me.BunifuPanel10.BackgroundImage = CType(resources.GetObject("BunifuPanel10.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuPanel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuPanel10.BorderColor = System.Drawing.Color.Transparent
+        Me.BunifuPanel10.BorderRadius = 3
+        Me.BunifuPanel10.BorderThickness = 1
+        Me.BunifuPanel10.Controls.Add(Me.BunifuLabel23)
+        Me.BunifuPanel10.Controls.Add(Me.BunifuLabel24)
+        Me.BunifuPanel10.Controls.Add(Me.BunifuPictureBox3)
+        Me.BunifuPanel10.Location = New System.Drawing.Point(561, 412)
+        Me.BunifuPanel10.Name = "BunifuPanel10"
+        Me.BunifuPanel10.ShowBorders = True
+        Me.BunifuPanel10.Size = New System.Drawing.Size(266, 59)
+        Me.BunifuPanel10.TabIndex = 10
+        '
+        'BunifuLabel23
+        '
+        Me.BunifuLabel23.AllowParentOverrides = False
+        Me.BunifuLabel23.AutoEllipsis = False
+        Me.BunifuLabel23.CursorType = Nothing
+        Me.BunifuLabel23.Font = New System.Drawing.Font("Segoe UI", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel23.Location = New System.Drawing.Point(62, 32)
+        Me.BunifuLabel23.Name = "BunifuLabel23"
+        Me.BunifuLabel23.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel23.Size = New System.Drawing.Size(81, 12)
+        Me.BunifuLabel23.TabIndex = 2
+        Me.BunifuLabel23.Text = "Front-End Developer"
+        Me.BunifuLabel23.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel23.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel24
+        '
+        Me.BunifuLabel24.AllowParentOverrides = False
+        Me.BunifuLabel24.AutoEllipsis = False
+        Me.BunifuLabel24.CursorType = Nothing
+        Me.BunifuLabel24.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel24.Location = New System.Drawing.Point(62, 14)
+        Me.BunifuLabel24.Name = "BunifuLabel24"
+        Me.BunifuLabel24.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel24.Size = New System.Drawing.Size(160, 15)
+        Me.BunifuLabel24.TabIndex = 1
+        Me.BunifuLabel24.Text = "Nor Shuhada binti Mohd Sukri"
+        Me.BunifuLabel24.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel24.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuPictureBox3
+        '
+        Me.BunifuPictureBox3.AllowFocused = False
+        Me.BunifuPictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BunifuPictureBox3.AutoSizeHeight = True
+        Me.BunifuPictureBox3.BorderRadius = 21
+        Me.BunifuPictureBox3.Image = CType(resources.GetObject("BunifuPictureBox3.Image"), System.Drawing.Image)
+        Me.BunifuPictureBox3.IsCircle = True
+        Me.BunifuPictureBox3.Location = New System.Drawing.Point(12, 8)
+        Me.BunifuPictureBox3.Name = "BunifuPictureBox3"
+        Me.BunifuPictureBox3.Size = New System.Drawing.Size(43, 43)
+        Me.BunifuPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuPictureBox3.TabIndex = 0
+        Me.BunifuPictureBox3.TabStop = False
+        Me.BunifuPictureBox3.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle
+        '
+        'BunifuPanel9
+        '
+        Me.BunifuPanel9.BackgroundColor = System.Drawing.Color.Gainsboro
+        Me.BunifuPanel9.BackgroundImage = CType(resources.GetObject("BunifuPanel9.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuPanel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuPanel9.BorderColor = System.Drawing.Color.Transparent
+        Me.BunifuPanel9.BorderRadius = 3
+        Me.BunifuPanel9.BorderThickness = 1
+        Me.BunifuPanel9.Controls.Add(Me.BunifuLabel21)
+        Me.BunifuPanel9.Controls.Add(Me.BunifuLabel22)
+        Me.BunifuPanel9.Controls.Add(Me.BunifuPictureBox2)
+        Me.BunifuPanel9.Location = New System.Drawing.Point(289, 412)
+        Me.BunifuPanel9.Name = "BunifuPanel9"
+        Me.BunifuPanel9.ShowBorders = True
+        Me.BunifuPanel9.Size = New System.Drawing.Size(266, 59)
+        Me.BunifuPanel9.TabIndex = 9
+        '
+        'BunifuLabel21
+        '
+        Me.BunifuLabel21.AllowParentOverrides = False
+        Me.BunifuLabel21.AutoEllipsis = False
+        Me.BunifuLabel21.CursorType = Nothing
+        Me.BunifuLabel21.Font = New System.Drawing.Font("Segoe UI", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel21.Location = New System.Drawing.Point(62, 32)
+        Me.BunifuLabel21.Name = "BunifuLabel21"
+        Me.BunifuLabel21.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel21.Size = New System.Drawing.Size(79, 12)
+        Me.BunifuLabel21.TabIndex = 2
+        Me.BunifuLabel21.Text = "Back-End Developer"
+        Me.BunifuLabel21.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel21.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel22
+        '
+        Me.BunifuLabel22.AllowParentOverrides = False
+        Me.BunifuLabel22.AutoEllipsis = False
+        Me.BunifuLabel22.CursorType = Nothing
+        Me.BunifuLabel22.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel22.Location = New System.Drawing.Point(62, 14)
+        Me.BunifuLabel22.Name = "BunifuLabel22"
+        Me.BunifuLabel22.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel22.Size = New System.Drawing.Size(190, 15)
+        Me.BunifuLabel22.TabIndex = 1
+        Me.BunifuLabel22.Text = "Nur Hani Maisarah binti Mohd Sukri"
+        Me.BunifuLabel22.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel22.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuPictureBox2
+        '
+        Me.BunifuPictureBox2.AllowFocused = False
+        Me.BunifuPictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BunifuPictureBox2.AutoSizeHeight = True
+        Me.BunifuPictureBox2.BorderRadius = 21
+        Me.BunifuPictureBox2.Image = CType(resources.GetObject("BunifuPictureBox2.Image"), System.Drawing.Image)
+        Me.BunifuPictureBox2.IsCircle = True
+        Me.BunifuPictureBox2.Location = New System.Drawing.Point(12, 8)
+        Me.BunifuPictureBox2.Name = "BunifuPictureBox2"
+        Me.BunifuPictureBox2.Size = New System.Drawing.Size(43, 43)
+        Me.BunifuPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuPictureBox2.TabIndex = 0
+        Me.BunifuPictureBox2.TabStop = False
+        Me.BunifuPictureBox2.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle
+        '
+        'BunifuPanel8
+        '
+        Me.BunifuPanel8.BackgroundColor = System.Drawing.Color.Gainsboro
+        Me.BunifuPanel8.BackgroundImage = CType(resources.GetObject("BunifuPanel8.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuPanel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuPanel8.BorderColor = System.Drawing.Color.Transparent
+        Me.BunifuPanel8.BorderRadius = 3
+        Me.BunifuPanel8.BorderThickness = 1
+        Me.BunifuPanel8.Controls.Add(Me.BunifuLabel20)
+        Me.BunifuPanel8.Controls.Add(Me.BunifuLabel19)
+        Me.BunifuPanel8.Controls.Add(Me.BunifuPictureBox1)
+        Me.BunifuPanel8.Location = New System.Drawing.Point(17, 412)
+        Me.BunifuPanel8.Name = "BunifuPanel8"
+        Me.BunifuPanel8.ShowBorders = True
+        Me.BunifuPanel8.Size = New System.Drawing.Size(266, 59)
+        Me.BunifuPanel8.TabIndex = 8
+        '
+        'BunifuLabel20
+        '
+        Me.BunifuLabel20.AllowParentOverrides = False
+        Me.BunifuLabel20.AutoEllipsis = False
+        Me.BunifuLabel20.CursorType = Nothing
+        Me.BunifuLabel20.Font = New System.Drawing.Font("Segoe UI", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel20.Location = New System.Drawing.Point(62, 32)
+        Me.BunifuLabel20.Name = "BunifuLabel20"
+        Me.BunifuLabel20.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel20.Size = New System.Drawing.Size(117, 12)
+        Me.BunifuLabel20.TabIndex = 2
+        Me.BunifuLabel20.Text = "Lead Developer/Team Leader"
+        Me.BunifuLabel20.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel20.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel19
+        '
+        Me.BunifuLabel19.AllowParentOverrides = False
+        Me.BunifuLabel19.AutoEllipsis = False
+        Me.BunifuLabel19.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel19.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel19.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel19.Location = New System.Drawing.Point(62, 14)
+        Me.BunifuLabel19.Name = "BunifuLabel19"
+        Me.BunifuLabel19.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel19.Size = New System.Drawing.Size(156, 15)
+        Me.BunifuLabel19.TabIndex = 1
+        Me.BunifuLabel19.Text = "Ahmad Faris Aiman bin Arizal"
+        Me.BunifuLabel19.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel19.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuPictureBox1
+        '
+        Me.BunifuPictureBox1.AllowFocused = False
+        Me.BunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BunifuPictureBox1.AutoSizeHeight = True
+        Me.BunifuPictureBox1.BorderRadius = 21
+        Me.BunifuPictureBox1.Image = CType(resources.GetObject("BunifuPictureBox1.Image"), System.Drawing.Image)
+        Me.BunifuPictureBox1.IsCircle = True
+        Me.BunifuPictureBox1.Location = New System.Drawing.Point(12, 9)
+        Me.BunifuPictureBox1.Name = "BunifuPictureBox1"
+        Me.BunifuPictureBox1.Size = New System.Drawing.Size(43, 43)
+        Me.BunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.BunifuPictureBox1.TabIndex = 0
+        Me.BunifuPictureBox1.TabStop = False
+        Me.BunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle
+        '
+        'BunifuLabel16
+        '
+        Me.BunifuLabel16.AllowParentOverrides = False
+        Me.BunifuLabel16.AutoEllipsis = False
+        Me.BunifuLabel16.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel16.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel16.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel16.Location = New System.Drawing.Point(17, 382)
+        Me.BunifuLabel16.Name = "BunifuLabel16"
+        Me.BunifuLabel16.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel16.Size = New System.Drawing.Size(308, 15)
+        Me.BunifuLabel16.TabIndex = 7
+        Me.BunifuLabel16.Text = "This application is developed fully by these team members"
+        Me.BunifuLabel16.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel16.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel15
+        '
+        Me.BunifuLabel15.AllowParentOverrides = False
+        Me.BunifuLabel15.AutoEllipsis = False
+        Me.BunifuLabel15.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel15.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel15.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuLabel15.Location = New System.Drawing.Point(17, 346)
+        Me.BunifuLabel15.Name = "BunifuLabel15"
+        Me.BunifuLabel15.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel15.Size = New System.Drawing.Size(127, 30)
+        Me.BunifuLabel15.TabIndex = 6
+        Me.BunifuLabel15.Text = "Team Credits"
+        Me.BunifuLabel15.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel15.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel14
+        '
+        Me.BunifuLabel14.AllowParentOverrides = False
+        Me.BunifuLabel14.AutoEllipsis = False
+        Me.BunifuLabel14.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel14.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel14.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel14.Location = New System.Drawing.Point(17, 309)
+        Me.BunifuLabel14.Name = "BunifuLabel14"
+        Me.BunifuLabel14.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel14.Size = New System.Drawing.Size(172, 15)
+        Me.BunifuLabel14.TabIndex = 5
+        Me.BunifuLabel14.Text = "Copyright © SMK Bukit Jelutong "
+        Me.BunifuLabel14.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel14.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel13
+        '
+        Me.BunifuLabel13.AllowParentOverrides = False
+        Me.BunifuLabel13.AutoEllipsis = False
+        Me.BunifuLabel13.Cursor = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel13.CursorType = System.Windows.Forms.Cursors.Default
+        Me.BunifuLabel13.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel13.Location = New System.Drawing.Point(17, 288)
+        Me.BunifuLabel13.Name = "BunifuLabel13"
+        Me.BunifuLabel13.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel13.Size = New System.Drawing.Size(78, 15)
+        Me.BunifuLabel13.TabIndex = 4
+        Me.BunifuLabel13.Text = "Version: 1.0.0.0"
+        Me.BunifuLabel13.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel13.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'ApplicationVerLabel
+        '
+        Me.ApplicationVerLabel.AllowParentOverrides = False
+        Me.ApplicationVerLabel.AutoEllipsis = False
+        Me.ApplicationVerLabel.Cursor = System.Windows.Forms.Cursors.Default
+        Me.ApplicationVerLabel.CursorType = System.Windows.Forms.Cursors.Default
+        Me.ApplicationVerLabel.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ApplicationVerLabel.Location = New System.Drawing.Point(17, 252)
+        Me.ApplicationVerLabel.Name = "ApplicationVerLabel"
+        Me.ApplicationVerLabel.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ApplicationVerLabel.Size = New System.Drawing.Size(213, 30)
+        Me.ApplicationVerLabel.TabIndex = 3
+        Me.ApplicationVerLabel.Text = "Application Metadata"
+        Me.ApplicationVerLabel.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.ApplicationVerLabel.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'DisclaimerLabelText
+        '
+        Me.DisclaimerLabelText.AllowParentOverrides = False
+        Me.DisclaimerLabelText.AutoEllipsis = False
+        Me.DisclaimerLabelText.Cursor = System.Windows.Forms.Cursors.Default
+        Me.DisclaimerLabelText.CursorType = System.Windows.Forms.Cursors.Default
+        Me.DisclaimerLabelText.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.DisclaimerLabelText.Location = New System.Drawing.Point(17, 200)
+        Me.DisclaimerLabelText.Name = "DisclaimerLabelText"
+        Me.DisclaimerLabelText.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.DisclaimerLabelText.Size = New System.Drawing.Size(735, 15)
+        Me.DisclaimerLabelText.TabIndex = 2
+        Me.DisclaimerLabelText.Text = "The information provided by SMK Bukit Jelutong (""we,"" ""us"" or ""our"") on SMKBJ LMS" &
+    " (the ""App"") is for general informational purposes only.  "
+        Me.DisclaimerLabelText.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.DisclaimerLabelText.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'DisclaimerLabel
+        '
+        Me.DisclaimerLabel.AllowParentOverrides = False
+        Me.DisclaimerLabel.AutoEllipsis = False
+        Me.DisclaimerLabel.Cursor = System.Windows.Forms.Cursors.Default
+        Me.DisclaimerLabel.CursorType = System.Windows.Forms.Cursors.Default
+        Me.DisclaimerLabel.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DisclaimerLabel.Location = New System.Drawing.Point(17, 164)
+        Me.DisclaimerLabel.Name = "DisclaimerLabel"
+        Me.DisclaimerLabel.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.DisclaimerLabel.Size = New System.Drawing.Size(101, 30)
+        Me.DisclaimerLabel.TabIndex = 1
+        Me.DisclaimerLabel.Text = "Disclaimer"
+        Me.DisclaimerLabel.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.DisclaimerLabel.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(14, 19)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(498, 135)
+        Me.PictureBox3.TabIndex = 0
+        Me.PictureBox3.TabStop = False
+        '
         'RTC
         '
         '
@@ -1844,11 +2887,11 @@ Partial Class AdminMenu
         Me.add_usrAcc.ColorContrastOnClick = 45
         Me.add_usrAcc.ColorContrastOnHover = 45
         Me.add_usrAcc.Cursor = System.Windows.Forms.Cursors.Default
-        BorderEdges13.BottomLeft = True
-        BorderEdges13.BottomRight = True
-        BorderEdges13.TopLeft = True
-        BorderEdges13.TopRight = True
-        Me.add_usrAcc.CustomizableEdges = BorderEdges13
+        BorderEdges14.BottomLeft = True
+        BorderEdges14.BottomRight = True
+        BorderEdges14.TopLeft = True
+        BorderEdges14.TopRight = True
+        Me.add_usrAcc.CustomizableEdges = BorderEdges14
         Me.add_usrAcc.DialogResult = System.Windows.Forms.DialogResult.None
         Me.add_usrAcc.DisabledBorderColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer), CType(CType(191, Byte), Integer))
         Me.add_usrAcc.DisabledFillColor = System.Drawing.Color.FromArgb(CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer), CType(CType(204, Byte), Integer))
@@ -1928,6 +2971,203 @@ Partial Class AdminMenu
         '
         Me.UsersTableAdapter.ClearBeforeFill = True
         '
+        'PictureBox5
+        '
+        Me.PictureBox5.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(259, 248)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 3
+        Me.PictureBox5.TabStop = False
+        '
+        'BunifuPanel15
+        '
+        Me.BunifuPanel15.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(243, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.BunifuPanel15.BackgroundImage = CType(resources.GetObject("BunifuPanel15.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuPanel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuPanel15.BorderColor = System.Drawing.Color.Transparent
+        Me.BunifuPanel15.BorderRadius = 3
+        Me.BunifuPanel15.BorderThickness = 1
+        Me.BunifuPanel15.Controls.Add(Me.BunifuLabel39)
+        Me.BunifuPanel15.Controls.Add(Me.BunifuSeparator6)
+        Me.BunifuPanel15.Location = New System.Drawing.Point(310, 420)
+        Me.BunifuPanel15.Name = "BunifuPanel15"
+        Me.BunifuPanel15.ShowBorders = True
+        Me.BunifuPanel15.Size = New System.Drawing.Size(644, 188)
+        Me.BunifuPanel15.TabIndex = 25
+        '
+        'BunifuLabel39
+        '
+        Me.BunifuLabel39.AllowParentOverrides = False
+        Me.BunifuLabel39.AutoEllipsis = False
+        Me.BunifuLabel39.CursorType = Nothing
+        Me.BunifuLabel39.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel39.Location = New System.Drawing.Point(18, 9)
+        Me.BunifuLabel39.Name = "BunifuLabel39"
+        Me.BunifuLabel39.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel39.Size = New System.Drawing.Size(61, 15)
+        Me.BunifuLabel39.TabIndex = 1
+        Me.BunifuLabel39.Text = "User Details"
+        Me.BunifuLabel39.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel39.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuSeparator6
+        '
+        Me.BunifuSeparator6.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuSeparator6.BackgroundImage = CType(resources.GetObject("BunifuSeparator6.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuSeparator6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuSeparator6.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Flat
+        Me.BunifuSeparator6.LineColor = System.Drawing.Color.DimGray
+        Me.BunifuSeparator6.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid
+        Me.BunifuSeparator6.LineThickness = 1
+        Me.BunifuSeparator6.Location = New System.Drawing.Point(3, 25)
+        Me.BunifuSeparator6.Name = "BunifuSeparator6"
+        Me.BunifuSeparator6.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal
+        Me.BunifuSeparator6.Size = New System.Drawing.Size(638, 15)
+        Me.BunifuSeparator6.TabIndex = 0
+        '
+        'BunifuSeparator4
+        '
+        Me.BunifuSeparator4.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuSeparator4.BackgroundImage = CType(resources.GetObject("BunifuSeparator4.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuSeparator4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuSeparator4.DashCap = Bunifu.UI.WinForms.BunifuSeparator.CapStyles.Flat
+        Me.BunifuSeparator4.LineColor = System.Drawing.Color.DimGray
+        Me.BunifuSeparator4.LineStyle = Bunifu.UI.WinForms.BunifuSeparator.LineStyles.Solid
+        Me.BunifuSeparator4.LineThickness = 1
+        Me.BunifuSeparator4.Location = New System.Drawing.Point(3, 25)
+        Me.BunifuSeparator4.Name = "BunifuSeparator4"
+        Me.BunifuSeparator4.Orientation = Bunifu.UI.WinForms.BunifuSeparator.LineOrientation.Horizontal
+        Me.BunifuSeparator4.Size = New System.Drawing.Size(638, 15)
+        Me.BunifuSeparator4.TabIndex = 0
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(118, 87)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox3.TabIndex = 16
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(118, 113)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox2.TabIndex = 17
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(118, 139)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(183, 20)
+        Me.TextBox1.TabIndex = 18
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"USER", "STAFF", "ADMIN"})
+        Me.ComboBox2.Location = New System.Drawing.Point(118, 166)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(183, 21)
+        Me.ComboBox2.TabIndex = 23
+        Me.ComboBox2.Text = "USER"
+        '
+        'BunifuPanel13
+        '
+        Me.BunifuPanel13.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(243, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.BunifuPanel13.BackgroundImage = CType(resources.GetObject("BunifuPanel13.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuPanel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuPanel13.BorderColor = System.Drawing.Color.Transparent
+        Me.BunifuPanel13.BorderRadius = 3
+        Me.BunifuPanel13.BorderThickness = 1
+        Me.BunifuPanel13.Controls.Add(Me.ComboBox2)
+        Me.BunifuPanel13.Controls.Add(Me.TextBox1)
+        Me.BunifuPanel13.Controls.Add(Me.TextBox2)
+        Me.BunifuPanel13.Controls.Add(Me.TextBox3)
+        Me.BunifuPanel13.Controls.Add(Me.BunifuSeparator4)
+        Me.BunifuPanel13.Location = New System.Drawing.Point(310, 94)
+        Me.BunifuPanel13.Name = "BunifuPanel13"
+        Me.BunifuPanel13.ShowBorders = True
+        Me.BunifuPanel13.Size = New System.Drawing.Size(644, 320)
+        Me.BunifuPanel13.TabIndex = 17
+        '
+        'BunifuLabel34
+        '
+        Me.BunifuLabel34.AllowParentOverrides = False
+        Me.BunifuLabel34.AutoEllipsis = False
+        Me.BunifuLabel34.CursorType = Nothing
+        Me.BunifuLabel34.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel34.Location = New System.Drawing.Point(18, 9)
+        Me.BunifuLabel34.Name = "BunifuLabel34"
+        Me.BunifuLabel34.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel34.Size = New System.Drawing.Size(61, 15)
+        Me.BunifuLabel34.TabIndex = 1
+        Me.BunifuLabel34.Text = "User Details"
+        Me.BunifuLabel34.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel34.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel32
+        '
+        Me.BunifuLabel32.AllowParentOverrides = False
+        Me.BunifuLabel32.AutoEllipsis = False
+        Me.BunifuLabel32.CursorType = Nothing
+        Me.BunifuLabel32.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel32.Location = New System.Drawing.Point(33, 89)
+        Me.BunifuLabel32.Name = "BunifuLabel32"
+        Me.BunifuLabel32.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel32.Size = New System.Drawing.Size(79, 15)
+        Me.BunifuLabel32.TabIndex = 20
+        Me.BunifuLabel32.Text = "Enter Fullname"
+        Me.BunifuLabel32.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel32.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel31
+        '
+        Me.BunifuLabel31.AllowParentOverrides = False
+        Me.BunifuLabel31.AutoEllipsis = False
+        Me.BunifuLabel31.CursorType = Nothing
+        Me.BunifuLabel31.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel31.Location = New System.Drawing.Point(33, 115)
+        Me.BunifuLabel31.Name = "BunifuLabel31"
+        Me.BunifuLabel31.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel31.Size = New System.Drawing.Size(80, 15)
+        Me.BunifuLabel31.TabIndex = 21
+        Me.BunifuLabel31.Text = "Enter Password"
+        Me.BunifuLabel31.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel31.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel30
+        '
+        Me.BunifuLabel30.AllowParentOverrides = False
+        Me.BunifuLabel30.AutoEllipsis = False
+        Me.BunifuLabel30.CursorType = Nothing
+        Me.BunifuLabel30.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel30.Location = New System.Drawing.Point(33, 141)
+        Me.BunifuLabel30.Name = "BunifuLabel30"
+        Me.BunifuLabel30.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel30.Size = New System.Drawing.Size(78, 15)
+        Me.BunifuLabel30.TabIndex = 22
+        Me.BunifuLabel30.Text = "Enter Matric ID"
+        Me.BunifuLabel30.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel30.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
+        'BunifuLabel4
+        '
+        Me.BunifuLabel4.AllowParentOverrides = False
+        Me.BunifuLabel4.AutoEllipsis = False
+        Me.BunifuLabel4.CursorType = Nothing
+        Me.BunifuLabel4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.BunifuLabel4.Location = New System.Drawing.Point(33, 169)
+        Me.BunifuLabel4.Name = "BunifuLabel4"
+        Me.BunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.BunifuLabel4.Size = New System.Drawing.Size(78, 15)
+        Me.BunifuLabel4.TabIndex = 24
+        Me.BunifuLabel4.Text = "Enter UserType"
+        Me.BunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft
+        Me.BunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.[Default]
+        '
         'AdminMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1954,16 +3194,47 @@ Partial Class AdminMenu
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Profile.ResumeLayout(False)
         Me.Profile.PerformLayout()
+        Me.BunifuPanel14.ResumeLayout(False)
+        Me.BunifuPanel14.PerformLayout()
         Me.UserAcc.ResumeLayout(False)
         Me.UserAcc_Pages.ResumeLayout(False)
         Me.Add_UserAcc.ResumeLayout(False)
         Me.Add_UserAcc.PerformLayout()
         Me.Modify_UserAcc.ResumeLayout(False)
-        CType(Me.BunifuDataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Modify_UserAcc.PerformLayout()
+        Me.BunifuPanel7.ResumeLayout(False)
+        Me.BunifuPanel7.PerformLayout()
+        Me.BunifuPanel6.ResumeLayout(False)
+        Me.BunifuPanel6.PerformLayout()
+        CType(Me.ModifyUserAttribute_UserAcc, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UsersBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LibMgmtSysDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.BunifuPanel4.ResumeLayout(False)
         CType(Me.underline, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.About.ResumeLayout(False)
+        Me.About.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.BunifuPanel12.ResumeLayout(False)
+        Me.BunifuPanel12.PerformLayout()
+        CType(Me.BunifuPictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.BunifuPanel11.ResumeLayout(False)
+        Me.BunifuPanel11.PerformLayout()
+        CType(Me.BunifuPictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.BunifuPanel10.ResumeLayout(False)
+        Me.BunifuPanel10.PerformLayout()
+        CType(Me.BunifuPictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.BunifuPanel9.ResumeLayout(False)
+        Me.BunifuPanel9.PerformLayout()
+        CType(Me.BunifuPictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.BunifuPanel8.ResumeLayout(False)
+        Me.BunifuPanel8.PerformLayout()
+        CType(Me.BunifuPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.BunifuPanel15.ResumeLayout(False)
+        Me.BunifuPanel15.PerformLayout()
+        Me.BunifuPanel13.ResumeLayout(False)
+        Me.BunifuPanel13.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1988,7 +3259,6 @@ Partial Class AdminMenu
     Friend WithEvents AdminMenu_Tabbed As Bunifu.UI.WinForms.BunifuPages
     Friend WithEvents Dashboard As TabPage
     Friend WithEvents Profile As TabPage
-    Friend WithEvents BunifuLabel4 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents BookCatalog As TabPage
     Friend WithEvents BunifuLabel3 As Bunifu.UI.WinForms.BunifuLabel
     Friend WithEvents PictureBox2 As PictureBox
@@ -2022,7 +3292,7 @@ Partial Class AdminMenu
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents BunifuDataGridView1 As Bunifu.UI.WinForms.BunifuDataGridView
+    Friend WithEvents ModifyUserAttribute_UserAcc As Bunifu.UI.WinForms.BunifuDataGridView
     Friend WithEvents LibMgmtSysDataSet As LibMgmtSysDataSet
     Friend WithEvents UsersBindingSource As BindingSource
     Friend WithEvents UsersTableAdapter As LibMgmtSysDataSetTableAdapters.usersTableAdapter
@@ -2036,6 +3306,80 @@ Partial Class AdminMenu
     Friend WithEvents UserTypeDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents Label7 As Label
     Friend WithEvents underline As PictureBox
-    Friend WithEvents CrystalReport_UserAccount As Bunifu.UI.WinForms.BunifuButton.BunifuButton
     Friend WithEvents Modify_UserAccount As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents Label8 As Label
+    Friend WithEvents BunifuPanel6 As Bunifu.UI.WinForms.BunifuPanel
+    Friend WithEvents BunifuSeparator1 As Bunifu.UI.WinForms.BunifuSeparator
+    Friend WithEvents SearchBox_Modify_UserAcc As TextBox
+    Friend WithEvents BunifuLabel5 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuPanel7 As Bunifu.UI.WinForms.BunifuPanel
+    Friend WithEvents BunifuLabel7 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents UpdateButton_Modify_UserAcc As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents userID_dt_Modify_UserAcc As TextBox
+    Friend WithEvents BunifuLabel8 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuSeparator2 As Bunifu.UI.WinForms.BunifuSeparator
+    Friend WithEvents BunifuLabel6 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel11 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel10 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel9 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents matid_dt_Modify_UserAcc As TextBox
+    Friend WithEvents password_dt_Modify_UserAcc As TextBox
+    Friend WithEvents fullname_dt_Modify_UserAcc As TextBox
+    Friend WithEvents BunifuLabel12 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents userType_dt_Modify_UserAcc As ComboBox
+    Friend WithEvents About As TabPage
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents DisclaimerLabel As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents DisclaimerLabelText As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel27 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuPanel12 As Bunifu.UI.WinForms.BunifuPanel
+    Friend WithEvents BunifuLabel25 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel26 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuPictureBox5 As Bunifu.UI.WinForms.BunifuPictureBox
+    Friend WithEvents BunifuPanel11 As Bunifu.UI.WinForms.BunifuPanel
+    Friend WithEvents BunifuLabel17 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel18 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuPictureBox4 As Bunifu.UI.WinForms.BunifuPictureBox
+    Friend WithEvents BunifuPanel10 As Bunifu.UI.WinForms.BunifuPanel
+    Friend WithEvents BunifuLabel23 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel24 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuPictureBox3 As Bunifu.UI.WinForms.BunifuPictureBox
+    Friend WithEvents BunifuPanel9 As Bunifu.UI.WinForms.BunifuPanel
+    Friend WithEvents BunifuLabel21 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel22 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuPictureBox2 As Bunifu.UI.WinForms.BunifuPictureBox
+    Friend WithEvents BunifuPanel8 As Bunifu.UI.WinForms.BunifuPanel
+    Friend WithEvents BunifuLabel20 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel19 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuPictureBox1 As Bunifu.UI.WinForms.BunifuPictureBox
+    Friend WithEvents BunifuLabel16 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel15 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel14 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel13 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents ApplicationVerLabel As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents BunifuLabel28 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel29 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuSeparator3 As Bunifu.UI.WinForms.BunifuSeparator
+    Friend WithEvents DeleteButton_Modify_UserAcc As Bunifu.UI.WinForms.BunifuButton.BunifuButton
+    Friend WithEvents Label9 As Label
+    Friend WithEvents BunifuPanel14 As Bunifu.UI.WinForms.BunifuPanel
+    Friend WithEvents BunifuLabel33 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel40 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuSeparator5 As Bunifu.UI.WinForms.BunifuSeparator
+    Friend WithEvents BunifuPanel15 As Bunifu.UI.WinForms.BunifuPanel
+    Friend WithEvents BunifuLabel39 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuSeparator6 As Bunifu.UI.WinForms.BunifuSeparator
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents BunifuPanel13 As Bunifu.UI.WinForms.BunifuPanel
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents BunifuSeparator4 As Bunifu.UI.WinForms.BunifuSeparator
+    Friend WithEvents BunifuLabel34 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel32 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel31 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel30 As Bunifu.UI.WinForms.BunifuLabel
+    Friend WithEvents BunifuLabel4 As Bunifu.UI.WinForms.BunifuLabel
 End Class
